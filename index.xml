@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zilinsky - Research on politics</title>
+    <title>Research on economics &amp; politics</title>
     <link>https://zilinskyjan.github.io/</link>
-    <description>Recent content on Zilinsky - Research on politics</description>
+    <description>Recent content on Research on economics &amp; politics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Apr 2018 19:37:43 -0400</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Wed, 11 Apr 2018 19:37:43 -0400</pubDate>
       
       <guid>https://zilinskyjan.github.io/teaching/</guid>
-      <description>Undergraduate politics classes at NYU  Examining the 2016 Election - Inequality, Populism, and Voting course. Data Fellow. Advanced seminar for juniors and seniors in American politics led by Professor Jonathan Nagler. Introduction to Political Theory. Teaching assistant to Professor Dimitri Landa. Introduces students to some outstanding theories of politics. Among the theorists we read are Aristotle, Machiavelli, Hobbes, Locke, Rousseau, Mill, Marx, and Rawls. Biology of Politics. Data Fellow.</description>
+      <description>Undergraduate politics classes at NYU  Examining the 2016 Election - Inequality, Populism, and Voting. Data Fellow. Advanced seminar for juniors and seniors in American politics led by Professor Jonathan Nagler. Introduction to Political Theory. Teaching assistant to Professor Dimitri Landa. Introduces students to some outstanding theories of politics. Among the theorists we read are Aristotle, Machiavelli, Hobbes, Locke, Rousseau, Mill, Marx, and Rawls. Biology of Politics. Data Fellow. Course taught by Professor Chris Dawes.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Wed, 11 Apr 2018 19:37:37 -0400</pubDate>
       
       <guid>https://zilinskyjan.github.io/research/</guid>
-      <description>The Happiness Gap in Eastern Europe with Simeon Djankov and Elena Nikolova Download the paper; publised version: Journal of Comparative Economics; short summary: Financial Times blog
+      <description>The Happiness Gap in Eastern Europe with Simeon Djankov and Elena Nikolova. Download the paper; publised version: Journal of Comparative Economics; short summary: Financial Times blog
 
 Short papers and policy briefs  Higher Wages for Low-Income Workers Lead to Higher Productivity with Justin Wolfers; a contribution featured in Raising Lower-Level Wages: When and Why It Makes Economic Sense; press coverage: The Atlantic, Vox, Wall Street Journal, Bloomberg. Reducing Government Debt Ratios in an Era of Low Growth with Paolo Mauro; press coverage: Wall Street Journal, Download the paper Fiscal Tightening and Economic Growth with Paolo Mauro, Download the paper; summary: voxeu.</description>
     </item>
@@ -39,7 +39,7 @@ Short papers and policy briefs  Higher Wages for Low-Income Workers Lead to High
       <guid>https://zilinskyjan.github.io/about/</guid>
       <description>Jan Zilinsky studies political economy and social media. He is a Ph.D. candidate in the Department of Politics, Data Fellow at NYU&amp;rsquo;s College of Arts and Sciences, and Research Associate at the Social Media and Political Participation Lab.
 Current research topics are:
- What do voters remember during election campaigns? What aspects of the economy are voters paying attention to? What can we learn about political mobilization of cultural elites from text data?</description>
+ Do citizens remember issue-based promises from election campaigns? What aspects of the economy are voters paying attention to? What can we learn about political mobilization of cultural elites from text data?</description>
     </item>
     
   </channel>
