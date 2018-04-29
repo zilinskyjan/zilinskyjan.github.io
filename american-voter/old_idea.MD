@@ -71,7 +71,7 @@ Can use Census data to show:
 
 Election results can be effectively visualized with dot plots. Here is an early version showing each county outcome in the 2016 election, which displays the extent of the drift toward the Republican nominee in 2016, relative to Obama's result in 2012. The exception is evident at the bottom, namely Utah:
 
-![](https://github.com/DS-GA3001-015/Zilinsky_Jan/blob/master/project/charts/2016_outcome.png)
+
 
 
 ## Methodological innovation: visualizing a large number of regression trees
