@@ -1,0 +1,128 @@
+---
+title: "Are U.S. elections competitive?"
+subtitle: "NY Data Science</br>DS-GA 3001.015"
+author: "Jan Zilinsky "
+date: "May 2018"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+#Image credit: [Douliery Olivier/Sipa USA USA/Newscom](https://www.weeklystandard.com/john-mccormack/the-election-came-down-to-77-744-votes-in-pennsylvania-wisconsin-and-michigan-updated)
+```
+
+background-image: url(https://zilinskyjan.github.io/american-voter/charts/results.png)
+
+
+
+---
+
+# Questions
+
+Is America really divided into a blue and red nation (which allows political candidate to take most states for granted)?
+
+If polarization is severe today, is the political landscape really that different compared to 50 or 100 years ago?
+
+<br>
+
+### What changed between 2012 and 2016? 
+
+- Story 1: Republican voters energized by an unusual candidate.
+- vs. Story 2: The country "moved" to the right.
+
+---
+class: center, middle
+
+# 1916 - 2016
+
+---
+
+## Magnitude of victory margins
+
+In how many states was the victory "close"?
+
+- What should count as a narrow victory? 
+- A margin of 3 percent or less?
+
+---
+
+### "Close" races over time
+
+
+![](charts/3_percent_margin.png)
+
+But why choose a 3% cutoff?
+
+---
+
+## Choose your own threshold 
+
+
+![](charts/Swing_states_US_elections_since_1916_app.gif)
+
+---
+
+## The margins are huge in some elections 
+
+- It does not mean the system is not competitive
+- The Reagan 1984 landslide:
+
+![](charts/distributions/reagan_landslide.png)
+
+---
+
+## Obama's election
+
+![](charts/distributions/obama_2008_states_results.png)
+
+In 6 states, Obama lost by more than 20% in 2008. 
+
+---
+
+## Polarized America?
+
+![](charts/distributions/trump_victory_2016.png)
+
+
+---
+class: center, middle
+# Evidence from counties
+
+(2012 - 2016)
+
+---
+
+## Blue and red counties
+
+![](charts/sankey/2016_sankey_plot.png)
+
+---
+
+## Large counties are more likely to be blue (and stay blue)
+
+![](charts/sankey/2016_sankey_plot_large_counties.png)
+
+---
+
+## Focus on specific states
+
+![](charts/choose_your_state_2016_vote.gif)
+
+
+--- 
+
+---
+
+## Comments on visualizing election results
+
+- Many journalists discuss which states voted in a surprising way. But states are diverse, so analysts should also think about what is happening at the county level.
+
+- Changes over time do not require us to display a fixed summary statistic over time. A time series perspective is sometimes approparite, but there are various way to show how the country is changing.
+
+- Geography is important. But that doesn't mean the whole county should always be displayed at once. 
