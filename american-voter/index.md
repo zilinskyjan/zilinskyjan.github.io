@@ -23,8 +23,7 @@ Access the set of visualizations via [shinyapp.io](https://zilinsky.shinyapps.io
 
 **Product 2**: Using sankey plots, display county-level vote changes between 2012 and 2016. The user can choose to focus on a particular state, or to select counties that meet a specific condition.
 
-**Third**, I represent recent election results, with `ggplot` and where voting for the incumbent party decreased between 2012 and 2016. Lastly, I will display the change in Democratic party vote shares in a number of interesting counties, and in the largest counties (by population).
-
+**Third**, I represent recent election results, with `ggplot`. The idea is to show where voting for the incumbent party decreased between 2012 and 2016. Lastly, I will display the change in Democratic party vote shares in a number of interesting counties, and in the largest counties (by population) where a surprsingly large number of people lives.
 
 
 
@@ -33,7 +32,7 @@ Access the set of visualizations via [shinyapp.io](https://zilinsky.shinyapps.io
 
 What should count as a narrow victory? Some analysts say that an election is competitive is the two main parties perform within a 3 percentage points margin.
 
-Of course, such a cutoff at 3 percentage points is arbitrary. The user of the app is able to explore how the number of closer races has changed over time when a different threshold is chosen. If we interactively modify the thresholds for what count as a "close result", how has the proportion of "swing states" changed over time? You can find out using the provided [Shiny App](https://zilinsky.shinyapps.io/how_competitive_are_us_elections/).
+Of course, such a cutoff at 3 percentage points is arbitrary. The user of the app is able to explore how the number of close races has changed over time when a different threshold is chosen. If we interactively modify the thresholds for what count as a "close result", how has the proportion of "swing states" changed over time? You can find out using the provided [Shiny App](https://zilinsky.shinyapps.io/how_competitive_are_us_elections/).
 
 The app code is shown under the fold:
 
@@ -493,7 +492,7 @@ ggplot(d2016, aes(x = dem_share_change,
   jz.theme()
 ```
 
-![](images/unnamed-chunk-4-1.png)<!-- -->
+![](images/unnamed-chunk-3-1.png)<!-- -->
 
 ## More static charts
 
