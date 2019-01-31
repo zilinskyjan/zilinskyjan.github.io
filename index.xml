@@ -1,24 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jan Zilinsky - Research on economics &amp; politics</title>
+    <title>Jan Zilinsky - academic site. Political science.</title>
     <link>https://zilinskyjan.github.io/</link>
-    <description>Recent content on Jan Zilinsky - Research on economics &amp; politics</description>
+    <description>Recent content on Jan Zilinsky - academic site. Political science.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 11 Apr 2018 19:37:43 -0400</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jul 2018 13:50:21 -0400</lastBuildDate>
     
 	<atom:link href="https://zilinskyjan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Teaching &amp; other information</title>
+      <title>Abridged Research Statement</title>
+      <link>https://zilinskyjan.github.io/statement/</link>
+      <pubDate>Fri, 27 Jul 2018 13:50:21 -0400</pubDate>
+      
+      <guid>https://zilinskyjan.github.io/statement/</guid>
+      <description>I am interested in how actions of political elites &amp;ndash; including not only elected leaders but a broad set of influencers who rely on either established or social media &amp;ndash; affect voters&amp;rsquo;s lives and decisions. Among the political choices I am interested are: conveyance of economic data and events, competition for elected office, and attempts to politicize new issues.
+As political discourse permeates into citizen&amp;rsquo;s screens and pockets, many observers worry that permanent campaigning, populist rhetoric, and echo chambers are eroding democracy.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://zilinskyjan.github.io/contact/</link>
+      <pubDate>Thu, 26 Jul 2018 15:02:06 -0400</pubDate>
+      
+      <guid>https://zilinskyjan.github.io/contact/</guid>
+      <description>Recent/upcoming opportunities to meet:
+Provo (July 2018) Boston (Late August - Early Sept. 2018) Abu Dhabi (January 2019) Chicago (April 2019) New York (most of the year)
+I generally welcome face-to-face conversations with other social scientists, journalists, and other people.
+If you are passing through the area and we have similar research interests, or if we follow each other on Twitter, or if you would like to chat about economics, politics, or data science, feel free to reach out.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
       <link>https://zilinskyjan.github.io/teaching/</link>
       <pubDate>Wed, 11 Apr 2018 19:37:43 -0400</pubDate>
       
       <guid>https://zilinskyjan.github.io/teaching/</guid>
-      <description>Undergraduate politics classes taught at NYU  Examining the 2016 Election - Inequality, Populism, and Voting. Data Fellow. Advanced seminar for juniors and seniors in American politics led by Professor Jonathan Nagler. Introduction to Political Theory. Teaching assistant to Professor Dimitri Landa. Biology of Politics. Data Fellow. Course taught by Professor Chris Dawes.  
-Undergraduate economics classes taught at Harvard  Sophomore Tutorial: Experiments in Economics. Instructor (syllabus, Spring 2011).</description>
+      <description>Current instructional activity: Advising undergraduate students on research design, data manipulation, interpreting and communicating empirical results.
+NYU: Undergraduate politics classes Examining the 2016 Election - Inequality, Populism, and Voting Data Fellow. Advanced seminar for juniors and seniors in American politics led by Professor Jonathan Nagler.
+Introduction to Political Theory Teaching assistant.
+Course taught by Professor Dimitri Landa.
+Biology of Politics Data Fellow. Course taught by Professor Christopher Dawes.
+Senior Honors I &amp;amp; II Stata Demos and individual consulations.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://zilinskyjan.github.io/teaching_simple/</link>
+      <pubDate>Wed, 11 Apr 2018 19:37:43 -0400</pubDate>
+      
+      <guid>https://zilinskyjan.github.io/teaching_simple/</guid>
+      <description>Current instructional activity: Advising undergraduate students on research design, data manipulation, interpreting and communicating empirical results.
+Undergraduate politics classes taught at NYU  Examining the 2016 Election - Inequality, Populism, and Voting. Data Fellow. Advanced seminar for juniors and seniors in American politics led by Professor Jonathan Nagler. Biology of Politics. Data Fellow. Course taught by Professor Chris Dawes. Introduction to Political Theory. Teaching assistant to Professor Dimitri Landa.</description>
     </item>
     
     <item>
@@ -27,20 +63,17 @@ Undergraduate economics classes taught at Harvard  Sophomore Tutorial: Experimen
       <pubDate>Wed, 11 Apr 2018 19:37:37 -0400</pubDate>
       
       <guid>https://zilinskyjan.github.io/research/</guid>
-      <description>The Happiness Gap in Eastern Europe with Simeon Djankov and Elena Nikolova. Download the paper; publised version: Journal of Comparative Economics; short summary: Financial Times blog
-
-Short papers and policy briefs  Higher Wages for Low-Income Workers Lead to Higher Productivity with Justin Wolfers; a contribution featured in Raising Lower-Level Wages: When and Why It Makes Economic Sense; press coverage: The Atlantic, Vox, Wall Street Journal, Bloomberg. Reducing Government Debt Ratios in an Era of Low Growth with Paolo Mauro; press coverage: Wall Street Journal, Download the paper Fiscal Tightening and Economic Growth with Paolo Mauro, Download the paper; summary: voxeu.</description>
+      <description>Publications  Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy Research &amp;amp; Politics Show BibTex citation @article{millennials_democracy, author = {Jan Zilinsky}, title ={Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy}, journal = {Research &amp;amp; Politics}, volume = {6}, number = {1}, year = {2019}, URL = {https://doi.org/10.1177/2053168018814332} } 
+The Happiness Gap in Eastern Europe with Simeon Djankov and Elena Nikolova Journal of Comparative Economics Summary: Financial Times blog.</description>
     </item>
     
     <item>
-      <title>About</title>
+      <title>Introduction</title>
       <link>https://zilinskyjan.github.io/about/</link>
       <pubDate>Wed, 11 Apr 2018 19:37:30 -0400</pubDate>
       
       <guid>https://zilinskyjan.github.io/about/</guid>
-      <description>Jan Zilinsky studies political economy and social media. He is a Ph.D. candidate in the Department of Politics at New York University, Data Fellow at NYU&amp;rsquo;s College of Arts and Sciences, and Research Associate at the Social Media and Political Participation Lab.
-Current research topics are:
- Do citizens remember issue-based promises from election campaigns? What aspects of the economy are voters paying attention to? What can we learn about political mobilization of cultural elites from text data?</description>
+      <description>I am a Ph.D. candidate in the Department of Politics at NYU and Research Associate at the Social Media and Political Participation Lab. In my work I study aspects of American politics (voting, public opinion, media use). A recent project exploits survey data augmented with respondents&amp;rsquo; social media data to analyze voters&amp;rsquo; expectations prior to the 2016 election. Another project uses text data to shed light on political mobilization of non-traditional campaign surrogates.</description>
     </item>
     
   </channel>
