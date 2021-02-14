@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Background, Interests & Teaching",
+      "author": [],
+      "contents": "\nMy goal is to improve our understanding of the connection between voting, economic outcomes, public opinion, and the media through rigorous research.\nBefore coming to NYU, I have worked on projects related to discrimination, inclusive capitalism, and behavioral economics. Most of these projects were done at MIT and at the Peterson Institute for International Economics.\nTeaching |  As a Data Fellow at NYU, I have advised undergraduate students on research design, tidying data, and interpreting empirical results.\nData Science: I taught topics in machine learning including model selection, false discovery rates, classification and decision trees, the bootstrap and cross-validation. I am also interested in teaching data visualization and text-as-data.\nPolitical Science: TA for various courses, including political philosophy.\nEconomics: I have designed and taught a course on experimental economics.\nEducation\nMBA | University of Chicago, 2014 BA, Economics | Harvard University, 2009 \nHow to get in touch: zilinsky (at) nyu.edu.\n\n\n\n",
+      "last_modified": "2021-02-14T22:37:21+01:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Jan Zilinsky",
+      "description": "Ph.D. candidate | Department of Politics at NYU. <br>\nGraduate Research Associate | NYU Center for Social Media and Politics\n",
+      "author": [],
+      "contents": "\nMy research analyzes how public opinion is shaped by the media, economic events, and political parties. With my collaborators we use survey data augmented with digital trace data to measure beliefs, knowledge, and to explain citizens’ behavior.\nPublications\nDon’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities Perspectives on Politics, 2020. With Vaccari, C., Nagler, J. & Tucker, J. A. PDF | Monkey Cage summary\nDemocratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy Research & Politics, 2019. PDF (open-access)\nHow Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data Sage Open, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker PDF (open-access) | Summaries: Pacific Standard, Main chart\nThe Happiness Gap in Eastern Europe Journal of Comparative Economics, 2016. With Simeon Djankov and Elena Nikolova PDF | Summary: Financial Times blog | Ungated SSRN & OSF pre-prints\nWork in progress\nThe Divided (But Not More Predictable) Electorate: A Machine Learning Analysis of Voting in American Presidential Elections.  Paper with Seo-young Silvia Kim.\nWhat People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity.  Paper with Greogy Eady, Jonathan Nagler, and Joshua Tucker.\nWhat Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens’ Economic and Life Evaluations.  Paper with James Bisbee.\nOther articles\nAffective polarization and belief in voter fraud (Monkey Cage, January 2021).\nMethodological supplement for our Monkey Cage piece on the media-based ideology of members of Congress: Calculating ideology of political actors based on their social media content.\nFiscal tightening and economic growth (VoxEu.org)\nArticle in Raising Lower-Level Wages: When and Why It Makes Economic Sense\n\n\n\n",
+      "last_modified": "2021-02-14T22:37:21+01:00"
+    }
+  ],
+  "collections": []
+}

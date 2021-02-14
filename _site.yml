@@ -1,0 +1,15 @@
+name: "ZJ_Distill_site"
+title: "Jan Zilinsky"
+description: |
+  Jan Zilinsky
+output_dir: "."
+theme: jz_theme.css
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "CV"  
+      href: files/ZilinskyCV.pdf
+    - text: "About"
+      href: about.html
+output: distill::distill_article

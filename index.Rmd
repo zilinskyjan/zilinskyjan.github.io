@@ -1,0 +1,64 @@
+---
+title: "Jan Zilinsky"
+description: |
+  Ph.D. candidate | Department of Politics at NYU. <br>
+  Graduate Research Associate | NYU Center for Social Media and Politics
+site: distill::distill_website
+twitter:
+  site: "@janzilinsky"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+# My academic work evaluates the narratives surrounding the 2016 U.S. presidential election, and the relationship between economic sentiment and objective economic outcomes.
+# I study the impact of social media on American politics. 
+```
+
+My research analyzes how public opinion is shaped by the media, economic events, and political parties. With my collaborators we use survey data augmented with digital trace data to measure beliefs, knowledge, and to explain citizens' behavior.
+
+
+
+## Publications
+
+Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities <br>
+**Perspectives on Politics**, 2020. With Vaccari, C., Nagler, J. & Tucker, J. A. <br>
+[PDF](https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/dont-republicans-tweet-too-using-twitter-to-assess-the-consequences-of-political-endorsements-by-celebrities/B2915BB8FBD93D0555D8C3D77CB00E65) | [Monkey Cage summary](https://www.washingtonpost.com/politics/2019/10/28/think-celebrities-get-punished-being-political-fact-they-get-retweeted/)
+
+Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy <br>
+**Research & Politics**, 2019. <br>
+[PDF (open-access)](https://journals.sagepub.com/doi/10.1177/2053168018814332)
+
+How Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data <br>
+**Sage Open**, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker <br>
+[PDF (open-access)](https://journals.sagepub.com/doi/full/10.1177/2158244019832705) | Summaries: [Pacific Standard](https://psmag.com/news/ideological-bubbles-turns-out-liberals-and-conservatives-mainly-follow-the-same-news-sources), [Main chart](https://twitter.com/andyguess/status/1102962970227810304) 
+
+The Happiness Gap in Eastern Europe <br>
+**Journal of Comparative Economics**, 2016. With Simeon Djankov and Elena Nikolova <br>
+[PDF](http://www.sciencedirect.com/science/article/pii/S0147596715000888) | Summary: [Financial Times blog](https://www.ft.com/content/abae03a5-6b58-3f05-ac84-d298b0e47ab5) | Ungated [SSRN](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658136) & [OSF](https://osf.io/preprints/socarxiv/et7vz/) pre-prints
+
+
+## Work in progress
+
+The Divided (But Not More Predictable) Electorate: A Machine Learning Analysis of Voting in American Presidential Elections. <br>
+Paper with Seo-young Silvia Kim.
+
+What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. <br> 
+Paper with Greogy Eady, Jonathan Nagler, and Joshua Tucker.
+
+What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens’ Economic and Life Evaluations. <br>
+Paper with James Bisbee.
+
+--- 
+
+### Other articles
+
+* Affective polarization and belief in voter fraud ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021).
+* Methodological supplement for our Monkey Cage piece on the [media-based ideology](https://www.washingtonpost.com/news/monkey-cage/wp/2018/10/05/trying-to-understand-how-jeff-flake-is-leaning-we-analyzed-his-twitter-feed-and-were-surprised/?utm_term=.6036368712fe) of members of Congress: [Calculating ideology of political actors based on their social media content](https://gregoryeady.com/Misc/Monkey_Cage_Flake_Methods_Supplement.pdf).
+* Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
+* Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
