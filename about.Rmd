@@ -11,14 +11,13 @@ My goal is to improve our understanding of the connection between voting, econom
 
 Before coming to NYU, I have worked on projects related to [discrimination](https://www.sciencedirect.com/science/article/pii/S2214658X1630006X), [inclusive capitalism](https://piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense), and behavioral economics. Most of these projects were done at MIT and at the Peterson Institute for International Economics.
 
-**Teaching | ** As a Data Fellow at NYU, I have advised undergraduate students on research design, tidying data, and interpreting empirical results. 
+**Teaching | ** As a Data Fellow at NYU, I have advised undergraduate students on research design, tidying data, and interpreting empirical results. My teaching experience is in three fields:
 
-- *Data Science*: I taught topics in machine learning including model selection, false discovery rates, classification and decision trees, the bootstrap and cross-validation. I am also interested in teaching data visualization and text-as-data. 
+- *Data Science*: Taught topics in machine learning including model selection, false discovery rates, classification and decision trees, the bootstrap and cross-validation. I am also interested in teaching data visualization and text-as-data. 
 
 - *Political Science*: TA for various courses, including political philosophy.
 
-- *Economics*: I have designed and taught a course on experimental economics.
-
+- *Economics*: Designed and taught a course on experimental economics. TA-ed a large Behavioral Economics course.
 
 #### Education 
 
