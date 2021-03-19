@@ -42,13 +42,17 @@ The Happiness Gap in Eastern Europe <br>
 [PDF](http://www.sciencedirect.com/science/article/pii/S0147596715000888) | Summary: [Financial Times blog](https://www.ft.com/content/abae03a5-6b58-3f05-ac84-d298b0e47ab5) | Ungated [SSRN](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658136) & [OSF](https://osf.io/preprints/socarxiv/et7vz/) pre-prints
 
 
-## Work in progress
-
-Geographic Boundaries and Local Income Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. <br>
-Paper with James Bisbee.
+## Working Papers
 
 The Divided (But Not More Predictable) Electorate: A Machine Learning Analysis of Voting in American Presidential Elections. <br>
-Paper with Seo-young Silvia Kim.
+Paper with Seo-young Silvia Kim. <br>
+[Pre-print](https://preprints.apsanet.org/engage/apsa/article-details/6050dba7df04091d6a7fb4ef) | [Code on Github](https://github.com/sysilviakim/surveyML)
+
+Geographic Boundaries Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. *Under Review*. <br>
+Paper with James Bisbee.
+
+
+## Work in progress
 
 What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. <br> 
 Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler.
