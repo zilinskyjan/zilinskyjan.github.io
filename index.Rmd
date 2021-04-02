@@ -59,7 +59,7 @@ Paper with James Bisbee. [[Preliminary results](https://polmeth.theopenscholar.c
 
 What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. <br> 
 Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. <br>
-[[Summary of results: MPSA Slides](https://github.com/zilinskyjan/zilinskyjan.github.io/raw/master/slides/MPSA_2019_Twitter.pdf)]
+[[Summary of results: MPSA Slides](https://zilinskyjan.github.io/slides/MPSA_2019_Twitter.pdf)]
 
 Predicting Economic Evaluations <br>
 [A methodological [summary](https://osf.io/7bgne/)]
