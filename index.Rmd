@@ -68,7 +68,8 @@ Predicting Economic Evaluations <br>
 
 ### Other articles
 
-* Affective polarization and belief in voter fraud ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021).
+* [Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/) post on affective polarization and belief in voter fraud (January 2021)
+  * [Supplementary analysis](https://csmapnyu.org/wp-content/uploads/2021/03/voter-fraud-TMC-results.pdf)
 * Trump supporters who think he didn't keep his promises are more likely to vote for Joe Biden in 2020. ([Monkey Cage](https://www.washingtonpost.com/politics/2020/10/28/did-trump-keep-his-campaign-promises-heres-what-americans-think/), October 2020)
 * Methodological supplement for our Monkey Cage piece on the [media-based ideology](https://www.washingtonpost.com/news/monkey-cage/wp/2018/10/05/trying-to-understand-how-jeff-flake-is-leaning-we-analyzed-his-twitter-feed-and-were-surprised/?utm_term=.6036368712fe) of members of Congress: [Calculating ideology of political actors based on their social media content](https://gregoryeady.com/Misc/Monkey_Cage_Flake_Methods_Supplement.pdf).
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
