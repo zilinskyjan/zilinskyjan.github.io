@@ -10,9 +10,6 @@ twitter:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
 # Learn more about publishing to GitHub Pages at:
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
@@ -20,8 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # I study the impact of social media on American politics. 
 ```
 
-My research analyzes how public opinion is shaped by the media, economic events, and political parties. With my collaborators we use surveys augmented with digital trace data to measure what voters know, what they believe, and to explain their behavior.
-
+My research analyzes how political competition is shaped and constrained by public opinion. Because voters' beliefs are influenced by the media, economic events, and political parties, my ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org) zooms in on voters' knowledge and media consumption with surveys augmented with digital trace data.
 
 ## Publications
 
@@ -66,12 +62,18 @@ Predicting Economic Evaluations <br>
 
 --- 
 
-### Other articles
+### What the Academic Literature Tells Us about the Trump Victory
 
-* [Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/) post on affective polarization and belief in voter fraud (January 2021)
+Between 2016 and early 2021, I collected a [list of relevant papers](https://zilinskyjan.github.io/trump-election-research).
+
+### Short articles
+
+* Affective polarization and belief in voter fraud. ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021)
   * [Supplementary analysis](https://csmapnyu.org/wp-content/uploads/2021/03/voter-fraud-TMC-results.pdf)
 * Trump supporters who think he didn't keep his promises are more likely to vote for Joe Biden in 2020. ([Monkey Cage](https://www.washingtonpost.com/politics/2020/10/28/did-trump-keep-his-campaign-promises-heres-what-americans-think/), October 2020)
 * Methodological supplement for our Monkey Cage piece on the [media-based ideology](https://www.washingtonpost.com/news/monkey-cage/wp/2018/10/05/trying-to-understand-how-jeff-flake-is-leaning-we-analyzed-his-twitter-feed-and-were-surprised/?utm_term=.6036368712fe) of members of Congress: [Calculating ideology of political actors based on their social media content](https://gregoryeady.com/Misc/Monkey_Cage_Flake_Methods_Supplement.pdf).
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
+
+##### My papers can also be found on [Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao).
