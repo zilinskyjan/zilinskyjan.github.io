@@ -1,0 +1,105 @@
+---
+title: "Why Trump won in 2016, narrowly: An overview of an active academic literature"
+description: |
+  Papers theorizing and explaining the 2016 U.S. presidential election outcome. <br>
+  A file with BibTeX entries is provided [here](https://zilinskyjan.github.io/files/trump-election.bib).
+date: "`r Sys.Date()`"
+bibliography: files/trump-election.bib
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The academic literature increasingly suggests that **economic insecurity among whites was not an important driver of Trump’s support**
+
+## Economy (micro-level evidence)
+
+* The latest contribution on the subject is @Carnes:2020br. Using 3 sources (ANES, CCES and the VOTER Survey) they conclude that "the data does not support the simple idea that Trump himself uniquely mobilized the white working class, but the white working class’s participation in presidential elections has been slowly and steadily changing over the last two and a half decades in ways that have favored Republican candidates."
+* Earlier, @Manza:2017da found that "Trump’s primary support was not systematically derived from successful appeals to disadvantaged or downwardly mobile voters."
+* "Trump’s rise to the GOP nomination did not draw upon a significant base of economically threatened voters. Instead, ethnonationalist views were very significant predictors of Trump support." [@Manza:2018do].
+
+*A surprising result based on a battery of personal-economic questions*: Clinton voters “report[ed] more economic distress than Donald Trump voters” [@Griffin:2018da]. They also report that "white Americans without a college degree report a lower level of [economic] distress than college-educated black and Hispanic Americans". We also know that:
+
+* Trump **lost among low-income voters** according to [exit polls](https://www.cnn.com/election/2016/results/exit-polls/national/house). He probably won among middle-income and high-earning people.
+* "[W]hile economic considerations were an important part of the story, racial attitudes and sexism were much more strongly related to support for Trump" [@Schaffner:2018bp].
+* On race and economics, see also:
+  * @Green:dm on the evidence that economic hardship played a role in lowering turnout among voters of color.
+  * @Baccini:is: "white voters were more likely to vote for Republican challengers [incl. in 2016] where manufacturing layoffs were high, whereas Black voters in hard-hit localities were more likely to vote for Democrats."
+
+## The economy as a contextual variable
+
+A negative or deteriorating **state of voters’ communities**, however, is associated with Trump support (among white voters):
+
+* @Rothwell:2016tj document that Trump supporters are not more likely to be unemployed but they are more likely to be "living in racially isolated communities with worse health outcomes, lower social mobility, less social capital, greater reliance on social security income and less reliance on capital income, predicts higher levels of Trump support".
+* @Grimmer:2019tf: "voters who reside in poorer zip codes support Trump at higher rates than they supported Romney. But the substantially improved economic conditions from 2012 to 2016 imply that many fewer voters reside in economically depressed zip codes".
+* Health outcomes were identified as an important contextual variable in a number of papers [@Bilal:2018js; @Monnat:2017hk; @Rothwell:2016tj].
+* Also, in counties where poverty or the unemployment rate increased, Trump outperformed Romney [@Fan:2020fi; @Monnat:2017hk].
+* For other claims that the class or income mattered, see: 
+	* @Ferguson:2020ig, @Morgan:2018eb, @Morgan:2018kj.
+	* @Ogorzalek:2019dv: "Trump’s support was concentrated among nationally poor whites but also among locally affluent whites".
+	* [Cherlin](https://www.russellsage.org/sites/default/files/In%20the%20Shadow%20of%20Sparrows%20Point_0.pdf) (2019): argues it is a mistake to dismiss economic explanations: "They have largely focused on short-term measures such as current income and employment rather than the long-term decline of the kind of labor that provided people with a sense of pride and dignity".
+	* Caution: "definitions [of the working class] in empirical literature are often wide ranging, suggesting differences in expected behavior" [@Bucci:2015gj].
+* In the press, the working-class hypothesis has been discussed in:
+	* Porter, Eduardo. 2016. “[Where were Trump’s votes? Where the jobs weren’t](https://www.nytimes.com/2016/12/13/business/economy/jobs-economy-voters.html).” New York Times. December 13.
+	* Cohn, Nate. 2017. “[The Obama-Trump Voters Are Real. Here’s What They Think](https://www.nytimes.com/2017/08/15/upshot/the-obama-trump-voters-are-real-heres-what-they-think.html).” New York Times. Aug. 15.
+
+*The economic populism theory*: On the campaign trail, Trump sounded like an economic progressive; “[his] promises to increase employment by improving trade deals and removing unauthorized immigrants could resonate in an era when employment levels for working age white men have declined, as might his calls for massive infrastructure spending and the jobs that would create.” (Manza and Crowley, 2017)
+
+## A case for the importance of racial identity
+
+@Sides:2017bl: Voting was driven by "how [voters] felt about those who were different from them". Moreover, it was "the centering of both campaigns on issues that tapped into Americans’ racial, ethnic, and social identities and attitudes." They show that group attitudes predicted vote choice better in 2016 than in prior elections: “White voters’ attitudes toward African Americans were … more strongly related to their preferences in the Clinton-Trump contest than they had been to preferences in the general elections pitting Obama against McCain in 2008, and against Romney in 2012”.
+
+Analyzing CCES data, @Schaffner:2018bp report that “moving from the most acknowledging of racism to the most denying of racism was associated with a 60-point increase in support for Trump.”
+
+@Engelhardt:2019dq reports that "[i]n 2016, the most racially resentful Whites were on average about 45 percentage points more likely than the least racially resentful to support Donald Trump over Hillary Clinton." 
+
+**But did Trump activate racial attitudes or just benefit from them?** 
+
+One paper skeptical of the popular activation hypothesis is @Enns:2018vo: "the results from May 2015 suggest that those who expressed the most racial animus in surveys were already predisposed to support any Republican candidate". On the other hand, Trump may have encouraged anti-immigrant sentiment: "[t]hose who previously supported Trump became more likely to support building a border wall" (Enns, 2018, panel data evidence). In addition, Trump's rhetoric appears to have moved Democrats in a pro-immigration direction (but parties were already polarizing by racial attitudes before 2016).
+
+**Partisan alignment by views on race**: "While there was a time when racially resentful White partisans could be found in both parties—thereby diluting their impact by 2016, ethnonationalism had moved into partisan alignment" ([Manza and Crowley](https://journals.sagepub.com/doi/full/10.1177/1536504218766548), among others). See also @Engelhardt:2020bl, @Schaffner:2020cr, and @Schaffner:2020cc.
+
+**Immigration attitudes predicted vote-switching**: 
+
+* White Obama voters with positive views of immigration almost universally supported Clinton, but about a third of white Obama voters with negative views of immigration reported voting for Trump [@Sides:2017bl]. 
+* Positive views of immigration among (white) Romney voters were also associated with vote-switching, i.e. voting for Clinton. However, there were fewer such voters overall: "[o]nly 14 percent of white Romney voters had attitudes that placed them on the positive side of the scale". 
+* [@Reny:2019kb]: "vote switching was more associated with racial and immigration attitudes than economic factors, and that the phenomenon occurred among both working-class and nonworking-class Whites, though many more working-class Whites switched than did nonworking-class Whites."
+
+See also @Garand:2020kx, @Wright:2018fs, and @Hooghe:2018cx.
+
+**Ethnocentrism** 
+
+* Opposition to allowing entry of Syrian refugees into the U.S. was  among the best predictors of positive feelings toward Trump [@Manza:2018do].
+* Perceptions of discrimination against high-status groups and a belief that the American way of life was treated were associated with Trump support [@mutz2018]. But [@Morgan:2018kj] counters that the same panel data “are consistent with the claim that economic interests are at least as important as status threat".
+* @Garand:2020kx "those who have a strong American identity more [are] likely to translate immigrant threat perceptions into support for Trump than those with weaker levels of American identity".
+
+**Local diversity**
+
+* @Newman2018: "residing in a high-Latino-growth area is predictive of support for Trump following, but not before, his utterance of inflammatory and bellicose comments about Mexican immigrants".
+* Homegenous places that are spatially close to diverse counties favored Trump [@A:2020hs].
+* @Freund:2017hd: "the change in the Republican vote share is positively correlated with manufacturing in predominantly white counties and negatively correlated with manufacturing in ethnically diverse counties, with these effects roughly offsetting each other."
+
+But @Hill:2019iw consider the possiblity that "despite its disparate local impacts, immigration may be a symbolic, nationalized issue whose effects do not depend on local experiences". They report evidence based on precinct-level data from 7 states, including key battle-ground states, and **do not find evidence** that "influxes of Hispanics or noncitizen immigrants benefited Trump relative to past Republicans, instead consistently showing that such changes were associated with shifts to Trump’s opponent."
+
+**Anti-Muslim attitudes** 
+
+Negative views of Muslims were highly prognostic of the vote in 2016 [@Lajevardi:2019ii; @Sides:2017tg], including in the primaries [@Tucker:2019is; Levchak:2019be].
+
+## Gender
+
+Sexism and views on women's role in society were also predictive of vote choice [@Stewart:2019fg; @Bracic:2019bc; @Cassese:2018ct; @Glick:2019cm; @Knuckey:2018cm; @Valentino:2018da].
+
+## Other work
+
+### Insights from psychology
+
+* @Womick:2018ev find that "facets of [right-wing authoritarianism] RWA and [social dominance orientation] SDO predicted support for Trump (compared to other Republican, Democratic, and Libertarian candidates)". 
+* In contrast, @Tucker:2019is report that "populist attitudes and anti-Muslim bias were considerably more important than authoritarian dispositions, and immigration and trade policy attitudes in explaining support for Trump among Republicans"
+
+### Big-picture papers
+
+Among some big-picture papers that I would recommend are: @Jacobson:2017ei, @Dickinson:2018hm, and @LewisBeck:2019fj. A key paper about voter misperceptions is @McDonald:2020do: "many Americans are unaware that he was born into great wealth. This misperception increases support for Trump, mediated through beliefs that he is both empathetic and good at business."
+
+
