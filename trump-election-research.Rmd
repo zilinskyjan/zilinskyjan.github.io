@@ -1,5 +1,5 @@
 ---
-title: "Why Trump won in 2016, narrowly: An overview of an active academic literature"
+title: "Explaining the Trump victory: An overview of an active academic literature"
 description: |
   Papers theorizing and explaining the 2016 U.S. presidential election outcome. <br>
   A file with BibTeX entries is provided [here](https://zilinskyjan.github.io/files/trump-election.bib).
@@ -12,7 +12,7 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The academic literature increasingly suggests that **economic insecurity among whites was not an important driver of Trump’s support**
+The academic literature increasingly suggests that **economic insecurity among white voters was not an important driver of Trump support**
 
 ## Economy (micro-level evidence)
 
@@ -45,7 +45,7 @@ A negative or deteriorating **state of voters’ communities**, however, is asso
 	* Porter, Eduardo. 2016. “[Where were Trump’s votes? Where the jobs weren’t](https://www.nytimes.com/2016/12/13/business/economy/jobs-economy-voters.html).” New York Times. December 13.
 	* Cohn, Nate. 2017. “[The Obama-Trump Voters Are Real. Here’s What They Think](https://www.nytimes.com/2017/08/15/upshot/the-obama-trump-voters-are-real-heres-what-they-think.html).” New York Times. Aug. 15.
 
-*The economic populism theory*: On the campaign trail, Trump sounded like an economic progressive; “[his] promises to increase employment by improving trade deals and removing unauthorized immigrants could resonate in an era when employment levels for working age white men have declined, as might his calls for massive infrastructure spending and the jobs that would create.” (Manza and Crowley, 2017)
+*The economic populism theory*: On the campaign trail, Trump sounded like an economic progressive; “[his] promises to increase employment by improving trade deals and removing unauthorized immigrants could resonate in an era when employment levels for working age white men have declined, as might his calls for massive infrastructure spending and the jobs that would create” [@Manza:2017da].
 
 ## A case for the importance of racial identity
 
@@ -98,8 +98,10 @@ Sexism and views on women's role in society were also predictive of vote choice 
 * @Womick:2018ev find that "facets of [right-wing authoritarianism] RWA and [social dominance orientation] SDO predicted support for Trump (compared to other Republican, Democratic, and Libertarian candidates)". 
 * In contrast, @Tucker:2019is report that "populist attitudes and anti-Muslim bias were considerably more important than authoritarian dispositions, and immigration and trade policy attitudes in explaining support for Trump among Republicans"
 
+A key paper about voter misperceptions is @McDonald:2020do: "many Americans are unaware that he was born into great wealth. This misperception increases support for Trump, mediated through beliefs that he is both empathetic and good at business."
+
 ### Big-picture papers
 
-Among some big-picture papers that I would recommend are: @Jacobson:2017ei, @Dickinson:2018hm, and @LewisBeck:2019fj. A key paper about voter misperceptions is @McDonald:2020do: "many Americans are unaware that he was born into great wealth. This misperception increases support for Trump, mediated through beliefs that he is both empathetic and good at business."
+Among some big-picture papers that I would recommend are: @Jacobson:2017ei, @Dickinson:2018hm, and @LewisBeck:2019fj. 
 
 
