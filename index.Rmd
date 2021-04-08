@@ -10,9 +10,15 @@ twitter:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
+# Can add to _site.yml:
+# cookie_consent:
+#   style: simple
+#   type: express
+#   palette: light
+#   lang: en
+#   cookies_policy: url
 
+# https://rstudio.github.io/distill/publish_website.html#github-pages
 # My academic work evaluates the narratives surrounding the 2016 U.S. presidential election, and the relationship between economic sentiment and objective economic outcomes.
 # I study the impact of social media on American politics. 
 ```

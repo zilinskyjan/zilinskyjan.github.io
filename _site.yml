@@ -3,7 +3,7 @@ title: "Jan Zilinsky"
 base_url: https://zilinskyjan.github.io
 google_analytics: "UA-133686173-1"
 description: |
-  Jan Zilinsky
+  Zilinsky Research
 output_dir: "."
 theme: jz_theme.css
 navbar:
@@ -15,9 +15,5 @@ navbar:
     - text: "About"
       href: about.html
 output: distill::distill_article
-cookie_consent:
-  style: simple
-  type: express
-  palette: light
-  lang: en
-  cookies_policy: url
+twitter:
+  site: "@janzilinsky"
