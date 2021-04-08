@@ -1,5 +1,7 @@
-name: "ZJ_Distill_site"
+name: "Zilinsky website"
 title: "Jan Zilinsky"
+base_url: https://zilinskyjan.github.io
+google_analytics: "UA-133686173-1"
 description: |
   Jan Zilinsky
 output_dir: "."
