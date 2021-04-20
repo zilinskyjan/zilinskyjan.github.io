@@ -72,7 +72,7 @@ See also @Garand:2020kx, @Wright:2018fs, and @Hooghe:2018cx.
 **Ethnocentrism** 
 
 * Opposition to allowing entry of Syrian refugees into the U.S. was  among the best predictors of positive feelings toward Trump [@Manza:2018do].
-* Perceptions of discrimination against high-status groups and a belief that the American way of life was treated were associated with Trump support [@mutz2018]. But [@Morgan:2018kj] counters that the same panel data “are consistent with the claim that economic interests are at least as important as status threat".
+* Perceptions of discrimination against high-status groups and a belief that the American way of life was treated were associated with Trump support [@mutz2018]. But @Morgan:2018kj counters that the same panel data “are consistent with the claim that economic interests are at least as important as status threat".
 * @Garand:2020kx "those who have a strong American identity more [are] likely to translate immigrant threat perceptions into support for Trump than those with weaker levels of American identity".
 
 **Local diversity**
