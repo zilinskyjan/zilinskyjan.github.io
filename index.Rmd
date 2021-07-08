@@ -23,38 +23,28 @@ knitr::opts_chunk$set(echo = FALSE)
 # I study the impact of social media on American politics. 
 ```
 
-My research analyzes how political competition is shaped and constrained by public opinion. Because voters' beliefs are influenced by the media, economic events, and political parties, my ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org) zooms in on voters' knowledge and media consumption with surveys augmented with digital trace data.
+I study how electoral competition is shaped and constrained by public opinion, digital media, and the macroeconomy. My ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org) investigate how media consumption and exposure to misinformation influences voters' knowledge and beliefs.
 
-## Publications
+# Papers
 
-Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities <br>
-**Perspectives on Politics**, 2020. With Vaccari, C., Nagler, J. & Tucker, J. A. <br>
+The Divided (But Not More Predictable) Electorate: A Machine Learning Analysis of Voting in American Presidential Elections. With Seo-young Silvia Kim. <br>
+[Pre-print](https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e) | [Code on Github](https://github.com/sysilviakim/surveyML) | [MPSA Slides](https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf) | [Podcast](https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/)
+
+Geographic Boundaries Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. *Conditionally Accepted at Political Analysis*. With [James Bisbee](https://www.jamesbisbee.com).
+
+Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities. **Perspectives on Politics**, 2020. With Vaccari, C., Nagler, J. & Tucker, J. A.
 [PDF](https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/dont-republicans-tweet-too-using-twitter-to-assess-the-consequences-of-political-endorsements-by-celebrities/B2915BB8FBD93D0555D8C3D77CB00E65) | [Monkey Cage summary](https://www.washingtonpost.com/politics/2019/10/28/think-celebrities-get-punished-being-political-fact-they-get-retweeted/)
 
-Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy <br>
-**Research & Politics**, 2019. <br>
-[PDF (open-access)](https://journals.sagepub.com/doi/10.1177/2053168018814332)
+Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy.
+**Research & Politics**, 2019. [PDF (open-access)](https://journals.sagepub.com/doi/10.1177/2053168018814332)
 
-How Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data <br>
-**Sage Open**, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker <br>
+How Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data. **Sage Open**, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker.
 [PDF (open-access)](https://journals.sagepub.com/doi/full/10.1177/2158244019832705) | Summaries: [Pacific Standard](https://psmag.com/news/ideological-bubbles-turns-out-liberals-and-conservatives-mainly-follow-the-same-news-sources), [Main chart](https://twitter.com/andyguess/status/1102962970227810304) 
 
-The Happiness Gap in Eastern Europe <br>
-**Journal of Comparative Economics**, 2016. With Simeon Djankov and Elena Nikolova <br>
+The Happiness Gap in Eastern Europe. **Journal of Comparative Economics**, 2016. With Simeon Djankov and Elena Nikolova.
 [PDF](http://www.sciencedirect.com/science/article/pii/S0147596715000888) | Summary: [Financial Times blog](https://www.ft.com/content/abae03a5-6b58-3f05-ac84-d298b0e47ab5) | Ungated [SSRN](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658136) & [OSF](https://osf.io/preprints/socarxiv/et7vz/) pre-prints
 
-
-## Working Papers
-
-The Divided (But Not More Predictable) Electorate: A Machine Learning Analysis of Voting in American Presidential Elections. <br>
-Paper with Seo-young Silvia Kim. <br>
-[Pre-print](https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e) | [Code on Github](https://github.com/sysilviakim/surveyML) | [MPSA Slides](https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf)
-
-Geographic Boundaries Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. *Under Review*. <br>
-Paper with James Bisbee.
-
-
-## Work in progress
+### Work in progress
 
 What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. <br>
 Paper with James Bisbee. [[Preliminary results](https://polmeth.theopenscholar.com/files/polmeth2020/files/polmethxxxvii_bisbee.pdf)]
@@ -66,13 +56,8 @@ Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. <br>
 Predicting Economic Evaluations <br>
 [A methodological [summary](https://osf.io/7bgne/)]
 
---- 
 
-### What the Academic Literature Tells Us about the Trump Victory
-
-Between 2016 and early 2021, I collected a [list of relevant papers](https://zilinskyjan.github.io/trump-election-research).
-
-### Short articles
+# Other publications
 
 * Affective polarization and belief in voter fraud. ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021)
   * [Supplementary analysis](https://csmapnyu.org/wp-content/uploads/2021/03/voter-fraud-TMC-results.pdf)
@@ -81,5 +66,7 @@ Between 2016 and early 2021, I collected a [list of relevant papers](https://zil
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
+#### Assorted
 
-##### My papers can also be found on [Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao).
+- *What the Academic Literature Tells Us about the Trump Victory*: A [list of relevant papers](https://zilinskyjan.github.io/trump-election-research).
+- My papers can also be found on [Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao).
