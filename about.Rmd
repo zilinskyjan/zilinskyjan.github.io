@@ -18,9 +18,11 @@ Before coming to NYU, I have worked on projects related to [discrimination](http
 - *Political Science*: TA for various courses, including political philosophy.
 
 - *Economics*: Designed and taught a course on experimental economics. TA-ed a large Behavioral Economics course.
+  - [Course Overview](files/teaching/970-summary.pdf) | [Syllabus and readings](https://github.com/zilinskyjan/archive/blob/master/teaching/Harvard/Economics_970.pdf).
 
 #### Education 
 
+**MPhil** | New York University, 2021; PhD expected. <br>
 **MBA** | University of Chicago, 2014  <br>
 **BA, Economics** | Harvard University, 2009 <br> 
 
