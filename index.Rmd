@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # I study the impact of social media on American politics. 
 ```
 
-I study how electoral competition is shaped and constrained by public opinion, digital media, and the macroeconomy. My ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org) investigate how media consumption and exposure to misinformation influences voters' knowledge and beliefs.
+I study how electoral competition is shaped and constrained by public opinion, digital media, and the macroeconomy. In ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org), my co-authors and I investigate how media consumption and exposure to misinformation influences voters' beliefs and decisions.
 
 # Papers
 
