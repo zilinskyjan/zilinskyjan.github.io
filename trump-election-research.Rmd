@@ -12,9 +12,9 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The academic literature increasingly suggests that **economic insecurity among white voters was not an important driver of Trump support**
-
 ## Economy (micro-level evidence)
+
+The academic literature increasingly suggests that **economic insecurity among white voters was not an important driver of Trump support**
 
 * The latest contribution on the subject is @Carnes:2020br. Using 3 sources (ANES, CCES and the VOTER Survey) they conclude that "the data does not support the simple idea that Trump himself uniquely mobilized the white working class, but the white working class’s participation in presidential elections has been slowly and steadily changing over the last two and a half decades in ways that have favored Republican candidates."
 * Earlier, @Manza:2017da found that "Trump’s primary support was not systematically derived from successful appeals to disadvantaged or downwardly mobile voters."
