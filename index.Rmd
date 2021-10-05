@@ -1,8 +1,7 @@
 ---
 title: "Jan Zilinsky"
 description: |
-  Ph.D. candidate | Department of Politics, New York University <br>
-  Graduate Research Associate | NYU Center for Social Media and Politics
+  Computational social scientist, post-doctoral research fellow & lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology in Munich
 site: distill::distill_website
 twitter:
   site: "@janzilinsky"
@@ -21,9 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 # My academic work evaluates the narratives surrounding the 2016 U.S. presidential election, and the relationship between economic sentiment and objective economic outcomes.
 # I study the impact of social media on American politics. 
+# In ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org), my co-authors and I investigate how media consumption and exposure to misinformation influences voters' beliefs and decisions.
 ```
 
-I study how electoral competition is shaped and constrained by public opinion, digital media, and the macroeconomy. In ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org), my co-authors and I investigate how media consumption and exposure to misinformation influences voters' beliefs and decisions.
+I study the impact of technology, especially social media, on political competition in democratic countries. My ongoing work also investigates relationships between perceptions of the economy and political behavior in Europe and in the United States.
 
 # Papers
 
