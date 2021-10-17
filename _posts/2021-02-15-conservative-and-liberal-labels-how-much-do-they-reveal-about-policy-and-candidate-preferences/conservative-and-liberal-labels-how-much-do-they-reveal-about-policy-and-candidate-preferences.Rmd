@@ -1,0 +1,226 @@
+---
+title: "Conservative and Liberal Labels: How much do they reveal about policy and candidate preferences?"
+description: |
+  Self-descriptions do not perfectly reflect citizens' policy positions (operational ideology) but conservative ideological labels correlate with support for conservative positions.
+author:
+  - name: Jan Zilinsky
+date: 02-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+# Get data:
+source("~/Dropbox/B_polls/Nationscape/R/0_load_and_recode_NS.R")
+
+library(pollster)
+
+## 'discrimination_blacks', 'discrimination_whites', 'discrimination_women',
+##         'discrimination_men', 'discrimination_muslims', 'discrimination_christians']
+```
+
+Knowing people's self-ascribed ideological label seems to be quite useful for gauging where they stand operationally.
+
+Specifically:
+
+- Symbolic conservatives are more likely to oppose to Medicare for All than symbolic moderates and liberals.
+- About 7 in 10 self-labeled conservatives disagree with abolishing private health insurance.
+- People who call themselves conservatives are less likely to support raising the minimum wage.
+
+```{r}
+pollster::crosstab(df = a %>% filter(ideo5 <=5,
+                                     medicare_for_all != 888),
+                   x = ideo5,
+                   y = medicare_for_all,
+                   weight = weight, format = "long") -> medplot
+
+obs <- nrow(a %>% filter(ideo5 <=5, medicare_for_all != 888))
+
+medplot %>%
+  ggplot(aes(x=ideo5,y=pct,fill=medicare_for_all)) + 
+  geom_col(width = .4) + 
+  coord_flip() +
+  scale_fill_brewer(palette = 7, type = "qual") +
+  labs(fill = "Enact Medicare-for-All?",
+       x = "", 
+       y = "Percent",
+       title = "Distribution of support for Medicare for All by symbolic (self-reported) ideology",
+       caption = paste("Data: Nationscape (2019-20).\nN = ", scales::comma(obs), ". Figure: @janzilinsky.", sep="")) +
+  theme_bw()
+  
+```
+
+```{r}
+crosstab(df = a %>% filter(ideo5 <=5,
+                                     abolish_priv_insurance != 888),
+                   x = ideo5,
+                   y = abolish_priv_insurance,
+                   weight = weight, format = "long") -> abplot
+
+obs2 <- nrow(a %>% filter(ideo5 <=5, abolish_priv_insurance != 888))
+
+abplot %>%
+  ggplot(aes(x=ideo5,y=pct,fill=abolish_priv_insurance)) + 
+  geom_col(width = .4, alpha=.6) + 
+  coord_flip() +
+  scale_fill_brewer(palette = 2, type = "qual") +
+  labs(fill = "Abolish private health insurance?",
+       x = "", 
+       y = "Percent",
+       caption = paste("Data: Nationscape.\nN = ", scales::comma(obs2), ". Figure: @janzilinsky.", sep="")) +
+  theme_bw()
+```
+
+
+
+```{r}
+crosstab(df = a %>% filter(ideo5 <=5,
+                                     minwage != 888),
+                   x = ideo5,
+                   y = minwage,
+                   weight = weight, format = "long") -> mw
+
+mw %>%
+  ggplot(aes(x=ideo5,y=pct,fill=minwage)) + 
+  geom_col(width = .4, alpha=.6) + 
+  coord_flip() +
+  scale_fill_brewer(palette = 2, type = "qual") +
+  labs(fill = "",
+       x = "", 
+       y = "Percent",
+       title="Raising the minimum wage to $15/hour?",
+              caption = "Data: Nationscape. Figure: @janzilinsky.") +
+  theme_bw()
+```
+
+```{r}
+moe_crosstab_3way(df= a %>% filter(monthyear <= "2020-06-01",
+                                   trump_biden != 999,
+                                   minwage <=2),
+                  x = trump_biden,
+                  y = minwage,z=monthyear,
+                  weight = weight,format="long",n=F,unwt_n=TRUE) %>%
+  mutate(who = case_when(trump_biden=="Joe Biden" ~ "Biden supporters",
+                         trump_biden=="Donald Trump" ~ "Trump supporters")) %>%
+  filter(minwage == "Agree") %>%
+  ggplot(aes(x=monthyear,y=pct,color=who)) + 
+  geom_line(lwd=.5) + geom_point(size=1.5) +
+  facet_grid(~who) +
+  geom_errorbar(aes(ymin = (pct - moe), ymax = (pct + moe),
+                    color=who), width=.1) +
+  ylim(c(0,90)) +
+  scale_color_brewer(palette = "Set1",direction = -1) +
+  theme_bw() +
+  labs(y="Percent",x="",
+       title="Support for raising the minimum wage to $15/hour",
+       subtitle="Democracy Fund + UCLA Nationscape data aggregated by month; undecided voters are excluded",
+       caption = "Figure: @janzilinsky.") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=.5)) +
+  theme(legend.position = "none") +
+  scale_x_date(date_breaks = "1 month",date_labels = "%b 20%y")
+```
+
+
+```{r}
+ECON <- tribble(
+  ~econ_var,	~econ_name,
+"Jgov_ins_agree",	"Provide government-run health insurance to all Americans",
+"Jpublic_option_agree",	"Provide government health insurance option",
+"Jhealth_subsidies_agree",	"Subsidize health insurance for low income Americans",
+"Jraise_upper_tax_agree",	"Raise taxes on families making over $600,000",
+"Jmctaxes_agree",	"Cut taxes for families making less than $100,000 per year",
+"Jestate_NOT_repleal",	"Against eliminating the estate tax",
+"Jcollege_agree",	"Provide debt-free state college",
+"Jcap_agree",	"Cap carbon emissions to combat climate change",
+"Jgreen_tech_agree",	"Invest in technology to protect the environment",
+"Jguaranteedjob_agree",	"Guarantee jobs for all Americans",
+"Jgreen_new_deal_agree",	"Enact a Green New Deal",
+"Jmaternityleave_agree",	"Provide 12-week maternity leave",
+"Jmedicare_agree",	"Enact Medicare-for-All",
+"Jminwage_agree",	"Raise the minimum wage to $15/hour",
+"Joil_drill_dereg_DISAGREE",	"Against removing oil and gas drilling barriers",
+"Jreparations_agree",	"Grant reparations payments to descendants of slaves",
+"Jright2W_DISAGREE",	"Against right-to-work laws",
+"Jtrade_limit_agree",	"Limit trade with other countries",
+"Juctaxes2_agree",	"Raise taxes on families making over $250,000",
+"Jchina_tariffs_agree",	"Impose trade tariffs on Chinese goods",
+"Jabolish_priv_insurance",	"Abolish private health insurance")
+
+# a %>% select(all_of(econ_vars))
+
+# Unweighted averages
+# EE <- a %>% summarise_at(ECON$econ_var, mean, na.rm = TRUE) %>%
+#   pivot_longer(everything(), names_to = "Issue") %>%
+#   cbind(ECON$econ_name)
+
+EE_all <- a %>% 
+  summarise(across(ECON$econ_var, ~weighted.mean(., w = weight, na.rm = T))) %>%
+  pivot_longer(everything(), names_to = "Issue") %>%
+  cbind(ECON$econ_name)
+
+EE_cons <- a %>% filter(ideo5 %in% c(4,5)) %>%
+  summarise(across(ECON$econ_var, ~weighted.mean(., w = weight, na.rm = T))) %>%
+  pivot_longer(everything(), names_to = "Issue") %>%
+  cbind(ECON$econ_name)
+
+# Numer of non-missing observations:
+a %>% summarise(across(ECON$econ_var, ~sum(!is.na(.)))) %>%
+  pivot_longer(everything(), names_to = "Non-missing") %>% pull(value) %>% mean()
+```
+
+```{r all-respondents}
+EE_all %>% ggplot(aes(x=reorder(ECON$econ_name,value), y=value)) +
+  geom_col(width = .9) +
+  coord_flip() +
+  labs(y="Percent holding a liberal/progressive position",
+       x="", caption = "Data: Nationscape (2019-20).\nAverage N per item: 181,801") +
+  scale_y_continuous(labels = scales::percent) +
+  theme(text = element_text(size=14))
+```
+
+```{r conservative-respondents}
+EE_cons %>% ggplot(aes(x=reorder(ECON$econ_name,value), y=value)) +
+  geom_col() +
+  coord_flip() +
+  labs(y="Percent holding a liberal/progressive position",
+       x="", subtitle = "Self-identified conservatives") +
+  scale_y_continuous(labels = scales::percent)
+```
+
+
+```{r}
+mean(EE_all$value)
+mean(EE_cons$value)
+```
+
+
+```{r}
+# moe_crosstab_3way(df= a %>% filter(registered==1,White==1,Hispanic==0,
+#                                    monthyear <= "2020-06-01",
+#                                    trump_biden != 999),
+#                   x = votcat,
+#                   y = trump_biden,z=monthyear,
+#                   weight = weight,format="long",n=F,unwt_n=TRUE) %>%
+#   ggplot(aes(x=monthyear,y=pct,color=trump_biden)) + 
+#   geom_line(lwd=.5) + geom_point(size=1.5) +
+#   geom_errorbar(aes(ymin = (pct - moe), ymax = (pct + moe),
+#                     color=trump_biden), width=.1) +
+#   labs(color="Preferred candidate",y="Two-party preference share",x="",
+#        title="2020 vote intent among white non-Hispanic registered voters",
+#        subtitle="Democracy Fund + UCLA Nationscape data aggregated by week; undecided voters are excluded") +
+#   theme_minimal() +
+#   facet_grid(~votcat) +
+#   scale_color_brewer(palette = "Set1",direction = -1) +
+#   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=.5)) +
+#   scale_x_date(date_breaks = "1 month",date_labels = "%b 20%y")
+```
+
+
