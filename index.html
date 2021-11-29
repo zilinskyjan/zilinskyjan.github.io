@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,7 +77,7 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
@@ -85,31 +85,32 @@ code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
+
   <!--radix_placeholder_meta_tags-->
   <title>Jan Zilinsky</title>
 
-  <meta property="description" itemprop="description" content="Computational social scientist, post-doctoral research fellow &amp; lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology in Munich"/>
+  <meta property="description" itemprop="description" content="Computational social scientist, post-doctoral research fellow &amp; lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology."/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Jan Zilinsky"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Computational social scientist, post-doctoral research fellow &amp; lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology in Munich"/>
+  <meta property="og:description" content="Computational social scientist, post-doctoral research fellow &amp; lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Jan Zilinsky"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Jan Zilinsky"/>
-  <meta property="twitter:description" content="Computational social scientist, post-doctoral research fellow &amp; lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology in Munich"/>
+  <meta property="twitter:description" content="Computational social scientist, post-doctoral research fellow &amp; lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology."/>
   <meta property="twitter:site" content="@janzilinsky"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site","twitter"]}},"value":[{"type":"character","attributes":{},"value":["Jan Zilinsky"]},{"type":"character","attributes":{},"value":["Computational social scientist, post-doctoral research fellow & lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology in Munich\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["site"]}},"value":[{"type":"character","attributes":{},"value":["@janzilinsky"]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site","twitter"]}},"value":[{"type":"character","attributes":{},"value":["Jan Zilinsky"]},{"type":"character","attributes":{},"value":["Computational social scientist, post-doctoral research fellow & lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology.\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["site"]}},"value":[{"type":"character","attributes":{},"value":["@janzilinsky"]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1863,7 +1864,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2378,7 +2382,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Jan Zilinsky","description":"Computational social scientist, post-doctoral research fellow & lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology in Munich","authors":[]}
+{"title":"Jan Zilinsky","description":"Computational social scientist, post-doctoral research fellow & lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2405,15 +2409,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>Jan Zilinsky</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Computational social scientist, post-doctoral research fellow &amp; lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology in Munich</p></p>
+<p><p>Computational social scientist, post-doctoral research fellow &amp; lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology.</p></p>
 </div>
 
 
 <div class="d-article">
 <p>I study the impact of technology, especially social media, on political competition in democratic countries. My ongoing work also investigates relationships between perceptions of the economy and political behavior in Europe and in the United States.</p>
 <h1 id="papers">Papers</h1>
-<p>The Divided (But Not More Predictable) Electorate: A Machine Learning Analysis of Voting in American Presidential Elections. With Seo-young Silvia Kim. <br> <a href="https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e">Pre-print</a> | <a href="https://github.com/sysilviakim/surveyML">Code on Github</a> | <a href="https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf">MPSA Slides</a> | <a href="https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/">Podcast</a></p>
-<p>Geographic Boundaries Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. <em>Conditionally Accepted at Political Analysis</em>. With <a href="https://www.jamesbisbee.com">James Bisbee</a>.</p>
+<p>Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. With <a href="https://sysilviakim.com">Seo-young Silvia Kim</a>. <br> <a href="https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e">Pre-print</a> | <a href="https://github.com/sysilviakim/surveyML">Code on Github</a> | <a href="https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf">MPSA Slides</a> | <a href="https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/">Podcast</a></p>
+<p>Geographic Boundaries Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. Conditionally Accepted at <strong>Political Analysis</strong>. With <a href="https://www.jamesbisbee.com">James Bisbee</a>.</p>
 <p>Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities. <strong>Perspectives on Politics</strong>, 2020. With Vaccari, C., Nagler, J. &amp; Tucker, J. A. <a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/dont-republicans-tweet-too-using-twitter-to-assess-the-consequences-of-political-endorsements-by-celebrities/B2915BB8FBD93D0555D8C3D77CB00E65">PDF</a> | <a href="https://www.washingtonpost.com/politics/2019/10/28/think-celebrities-get-punished-being-political-fact-they-get-retweeted/">Monkey Cage summary</a></p>
 <p>Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy. <strong>Research &amp; Politics</strong>, 2019. <a href="https://journals.sagepub.com/doi/10.1177/2053168018814332">PDF (open-access)</a></p>
 <p>How Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data. <strong>Sage Open</strong>, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker. <a href="https://journals.sagepub.com/doi/full/10.1177/2158244019832705">PDF (open-access)</a> | Summaries: <a href="https://psmag.com/news/ideological-bubbles-turns-out-liberals-and-conservatives-mainly-follow-the-same-news-sources">Pacific Standard</a>, <a href="https://twitter.com/andyguess/status/1102962970227810304">Main chart</a></p>
