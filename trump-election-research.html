@@ -92,8 +92,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-07-23"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-07-23"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-30"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-30"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Jan Zilinsky: Explaining the Trump victory: An overview of an active academic literature"/>
@@ -148,7 +148,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","bibliography","output"]}},"value":[{"type":"character","attributes":{},"value":["Explaining the Trump victory: An overview of an active academic literature"]},{"type":"character","attributes":{},"value":["Papers theorizing and explaining the 2016 U.S. presidential election outcome. <br>\nA file with BibTeX entries is provided [here](https://zilinskyjan.github.io/files/trump-election.bib).\n"]},{"type":"character","attributes":{},"value":["2021-07-23"]},{"type":"character","attributes":{},"value":["files/trump-election.bib"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","bibliography","output"]}},"value":[{"type":"character","attributes":{},"value":["Explaining the Trump victory: An overview of an active academic literature"]},{"type":"character","attributes":{},"value":["Papers theorizing and explaining the 2016 U.S. presidential election outcome. <br>\nA file with BibTeX entries is provided [here](https://zilinskyjan.github.io/files/trump-election.bib).\n"]},{"type":"character","attributes":{},"value":["2021-12-30"]},{"type":"character","attributes":{},"value":["files/trump-election.bib"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -499,265 +499,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-  
-  <script type="application/javascript">
-  
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-  
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-  
-  function createFuseIndex() {
-  
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-  
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-  
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-  
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-  
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-  
-    createFuseIndex()
-      .then(function(fuse) {
-  
-        // make search box visible
-        searchEl.classList.remove('hidden');
-  
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-  
-  });
-  
-  </script>
-  
-  <style type="text/css">
-  
-  .nav-search {
-    font-size: x-small;
-  }
-  
-  /* Algolioa Autocomplete */
-  
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-  
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-  
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-  
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  </style>
-  
-  
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -2150,7 +1891,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
   </style>
-  <style type="text/css">
+  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  
+  :root {
+    --font-body:   Lato,-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
+    --font-header: Montserrat, Inter,Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+  
+  /* Inspiration from:  https://github.com/joelnitta/joelnitta-home/blob/main/jnitta_theme.css */
+   
+    /* color scheme save on https://coolors.co as "moorea" */
+    --color-background:   #fdfcfd;
+    --color-background2:  #F5EFED;
+    --color-primary:      #5F85A7;
+    --color-primary-dark: #0E0E52;
+    --color-secondary:    #6E928B;
+    --color-tertiary:     #D62839;
+    --color-text:         #161A1D;
+    --color-white:        #FFFFFF;
+  }
+  
   /* base variables */
   
   /* Edit the CSS properties in this file to create a custom
@@ -2162,32 +1925,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
-  @import url('https://fonts.googleapis.com/css2?family=Amiri');
-  @import url('https://fonts.googleapis.com/css2?family=Bitter');
-  @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
-  @import url('https://fonts.googleapis.com/css2?family=Lato');
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat');
   
   html {
     /*-- Main font sizes --*/
-    --title-size:      36px;
+    --title-size:      50px;
     --body-size:       1.06rem;
     --code-size:       14px;
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #000000;
+    --title-color:     var(--color-text);
     --header-color:    rgba(0, 0, 0, 0.8);
     --body-color:      rgba(0, 0, 0, 0.8);
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    "Amiri", serif;
-    --mono-font:       "DM Mono", monospace;
-    --body-font:       "Bitter", sans-serif;
-    --navbar-font:     "Amiri", serif;
+    --heading-font:    var(--font-header);
+    --mono-font:       var(--font-mono);
+    --body-font:       var(--font-body);
+    --navbar-font:     var(--font-header);
   }
+  
+  
   
   /*-- ARTICLE METADATA --*/
   d-byline {
@@ -2207,8 +1966,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-appendix {
     --heading-size:    15px;
     --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.9em;
-    --text-color:      rgba(0, 0, 0, 0.8);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
   }
   
   /*-- WEBSITE HEADER + FOOTER --*/
@@ -2216,25 +1975,167 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   .distill-site-header {
     --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #127A94;
+    --text-color:       var(--color-primary);
+    --text-size:        18px;
+    --hover-color:      var(--color-secondary);
+    --bkgd-color:       var(--color-background);
+    font-weight:        500;
   }
   
   .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-color:       #ededeb;
     --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
+    --hover-color:      var(--color-white);
+    --bkgd-color:       var(--color-primary);
   }
   
   /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  p a:hover  {
-      color: #26D7B2;
+  /* Add any additional CSS rules below */
+  
+  h1.title {
+    font-size: 28px;
+    color: DarkRed;
   }
-  </style>
+  h1 { /* Header 1 */
+    font-size: 22px;
+    color: DarkBlue;
+  }
+  
+  html body {
+      background-color: var(--color-background);
+  }
+  
+  /* Links */
+  
+  a {
+      color: var(--color-primary);
+      border-bottom: 0px;
+      text-decoration: none;
+  }
+  
+  d-article a {
+      color: var(--color-primary);
+      border-bottom: 0px;
+      text-decoration: none;
+  }
+  
+  a:hover, a:focus {
+      color: var(--color-secondary);
+      font-weight: 500;
+      border-color: var(--color-secondary);
+  }
+  
+  d-article a:hover, a:focus {
+      color: var(--color-secondary);
+      font-weight: 500;
+      border-color: var(--color-secondary);
+  }
+  
+  /* Buttons on home page */
+  
+  .btn-outline-dark {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      border: 0px;
+  }
+  
+  .btn-outline-dark:hover {
+      background-color: var(--color-secondary);
+  }
+  
+  /* Menu */
+  
+  .nav-dropdown-content a {
+      color: var(--color-primary);
+  }
+  
+  .nav-dropdown-content a:hover {
+      background-color: var(--color-background);
+  }
+  
+  /* Link buttons */
+  
+  .icon-link {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  
+  .icon-link:hover {
+      background-color: var(--color-secondary);
+      color: var(--color-white);
+  }
+  
+  /* For floating images - see lab page, for example */
+  
+  .float-left img {
+      float:left;
+      padding: 5px 10px 5px 0px;
+  }
+  
+  .float-right img {
+      float:right;
+      padding: 5px 0px 5px 10px;
+  }
+  
+  /* Footer */
+  
+  .distill-site-footer p {
+      margin-bottom: 0em;
+  }
+  
+  /* Pubs page */
+  
+  .pub {
+      margin: 0 0 15px 0;
+  }
+  
+  /* For dropping a shadow behind images */
+  .shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  d-article img {
+    margin-bottom: 10px;
+  }
+  
+  /* Smaller spacing in bullet lists */
+  
+  d-article li {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  d-article ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  /* Code chunks */
+  
+  d-article pre { /* Chunk output */
+    border-radius: 5px; /* Rounded edges */
+    font-size: 12px;
+    color: #fff;
+    background-color: #696969;
+    padding: 5px 5px 5px 18px;
+    overflow: auto !important;
+  }
+  
+  d-article div.sourceCode pre { /* Chunk code */
+    border-radius: 5px; /* Rounded edges */
+    background-color: #fff;
+    color: black;
+    padding: 5px 5px 5px 18px;
+    overflow: auto !important;
+  }
+  
+  d-article div.sourceCode {
+    background-color: transparent;
+  }</style>
   <style type="text/css">
   /* base style */
   
@@ -2416,7 +2317,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Explaining the Trump victory: An overview of an active academic literature","description":"Papers theorizing and explaining the 2016 U.S. presidential election outcome. <br>\nA file with BibTeX entries is provided [here](https://zilinskyjan.github.io/files/trump-election.bib).","authors":[],"publishedDate":"2021-07-23T00:00:00.000+00:00"}
+{"title":"Explaining the Trump victory: An overview of an active academic literature","description":"Papers theorizing and explaining the 2016 U.S. presidential election outcome. <br>\nA file with BibTeX entries is provided [here](https://zilinskyjan.github.io/files/trump-election.bib).","authors":[],"publishedDate":"2021-12-30T00:00:00.000+00:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2425,7 +2326,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a href="index.html" class="title">Jan Zilinsky</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>

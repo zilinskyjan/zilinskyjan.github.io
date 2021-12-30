@@ -7,6 +7,7 @@ description: |
 output_dir: "."
 theme: jz_theme2.css
 navbar:
+  search: false
   right:
     - text: "Home"
       href: index.html
