@@ -5,7 +5,7 @@ google_analytics: "UA-133686173-1"
 description: |
   Zilinsky Research
 output_dir: "."
-theme: jz_theme.css
+theme: jz_theme2.css
 navbar:
   right:
     - text: "Home"

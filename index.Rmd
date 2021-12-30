@@ -1,10 +1,10 @@
 ---
 title: "Jan Zilinsky"
 description: |
-  Computational social scientist, post-doctoral research fellow & lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology.
+  Computational social scientist & post-doctoral research fellow
 site: distill::distill_website
 twitter:
-  site: "@janzilinsky"
+  site: '@janzilinsky'
 ---
 
 ```{r setup, include=FALSE}
@@ -18,55 +18,62 @@ knitr::opts_chunk$set(echo = FALSE)
 #   cookies_policy: url
 
 # https://rstudio.github.io/distill/publish_website.html#github-pages
+
+# Lecturer at the Chair of Digital Governance, TUM School of Social Sciences and Technology.
 # My academic work evaluates the narratives surrounding the 2016 U.S. presidential election, and the relationship between economic sentiment and objective economic outcomes.
 # I study the impact of social media on American politics. 
 # In ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org), my co-authors and I investigate how media consumption and exposure to misinformation influences voters' beliefs and decisions.
 ```
 
-I study the impact of technology, especially social media, on political competition in democratic countries. My ongoing work also investigates relationships between perceptions of the economy and political behavior in Europe and in the United States.
+I study how citizens organize and filter economic and political information. 
 
-# Papers
+**Core research interests:** Technology & Politics, Public Opinion, Text as Data and related methods
 
-Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. With [Seo-young Silvia Kim](https://sysilviakim.com). <br>
+### Teaching
+
+- Insurgent Politics (Winter 2021, Spring 2022)
+- Behavioral Political Economy & Psychology (Winter 2021, Spring 2022)
+
+### Research
+
+I work at TUM, and you can see the list of my co-authors on [Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao).
+
+- Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. With [Seo-young Silvia Kim](https://sysilviakim.com). <br>
 [Pre-print](https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e) | [Code on Github](https://github.com/sysilviakim/surveyML) | [MPSA Slides](https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf) | [Podcast](https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/)
 
-Geographic Boundaries Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. Conditionally Accepted at **Political Analysis**. With [James Bisbee](https://www.jamesbisbee.com).
+- Geographic Boundaries Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. Conditionally Accepted at **Political Analysis**. With [James Bisbee](https://www.jamesbisbee.com).
 
-Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities. **Perspectives on Politics**, 2020. With Vaccari, C., Nagler, J. & Tucker, J. A.
+- Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities. **Perspectives on Politics**, 2020. With Vaccari, C., Nagler, J. & Tucker, J. A.
 [PDF](https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/dont-republicans-tweet-too-using-twitter-to-assess-the-consequences-of-political-endorsements-by-celebrities/B2915BB8FBD93D0555D8C3D77CB00E65) | [Monkey Cage summary](https://www.washingtonpost.com/politics/2019/10/28/think-celebrities-get-punished-being-political-fact-they-get-retweeted/)
 
-Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy.
+- Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy.
 **Research & Politics**, 2019. [PDF (open-access)](https://journals.sagepub.com/doi/10.1177/2053168018814332)
 
-How Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data. **Sage Open**, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker.
+- How Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data. **Sage Open**, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker.
 [PDF (open-access)](https://journals.sagepub.com/doi/full/10.1177/2158244019832705) | Summaries: [Pacific Standard](https://psmag.com/news/ideological-bubbles-turns-out-liberals-and-conservatives-mainly-follow-the-same-news-sources), [Main chart](https://twitter.com/andyguess/status/1102962970227810304) 
 
-The Happiness Gap in Eastern Europe. **Journal of Comparative Economics**, 2016. With Simeon Djankov and Elena Nikolova.
+- The Happiness Gap in Eastern Europe. **Journal of Comparative Economics**, 2016. With Simeon Djankov and Elena Nikolova.
 [PDF](http://www.sciencedirect.com/science/article/pii/S0147596715000888) | Summary: [Financial Times blog](https://www.ft.com/content/abae03a5-6b58-3f05-ac84-d298b0e47ab5) | Ungated [SSRN](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658136) & [OSF](https://osf.io/preprints/socarxiv/et7vz/) pre-prints
 
 ### Work in progress
 
-What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. <br>
-Paper with James Bisbee. [[Preliminary results](https://polmeth.theopenscholar.com/files/polmeth2020/files/polmethxxxvii_bisbee.pdf)]
+- What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. [Preliminary results](https://polmeth.theopenscholar.com/files/polmeth2020/files/polmethxxxvii_bisbee.pdf).
 
-What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. <br> 
-Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. <br>
-[[Summary of results: MPSA Slides](https://zilinskyjan.github.io/slides/MPSA_2019_Twitter.pdf)]
+- What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. [MPSA Slides](https://zilinskyjan.github.io/slides/MPSA_2019_Twitter.pdf).
 
-Predicting Economic Evaluations <br>
-[A methodological [summary](https://osf.io/7bgne/)]
+- Predicting Economic Evaluations. A methodological [summary](https://osf.io/7bgne/).
 
 
-# Other publications
+#### Other publications and links
 
-* Affective polarization and belief in voter fraud. ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021)
-  * [Supplementary analysis](https://csmapnyu.org/wp-content/uploads/2021/03/voter-fraud-TMC-results.pdf)
-* Trump supporters who think he didn't keep his promises are more likely to vote for Joe Biden in 2020. ([Monkey Cage](https://www.washingtonpost.com/politics/2020/10/28/did-trump-keep-his-campaign-promises-heres-what-americans-think/), October 2020)
-* Methodological supplement for our Monkey Cage piece on the [media-based ideology](https://www.washingtonpost.com/news/monkey-cage/wp/2018/10/05/trying-to-understand-how-jeff-flake-is-leaning-we-analyzed-his-twitter-feed-and-were-surprised/?utm_term=.6036368712fe) of members of Congress: [Calculating ideology of political actors based on their social media content](https://gregoryeady.com/Misc/Monkey_Cage_Flake_Methods_Supplement.pdf).
+- Affective polarization and belief in voter fraud. ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021)
+  - [Supplementary analysis](https://csmapnyu.org/wp-content/uploads/2021/03/voter-fraud-TMC-results.pdf)
+- Trump supporters who think he didn't keep his promises are more likely to vote for Joe Biden in 2020. ([Monkey Cage](https://www.washingtonpost.com/politics/2020/10/28/did-trump-keep-his-campaign-promises-heres-what-americans-think/), October 2020)
+* [Ideological estimation with Twitter data](https://www.washingtonpost.com/news/monkey-cage/wp/2018/10/05/trying-to-understand-how-jeff-flake-is-leaning-we-analyzed-his-twitter-feed-and-were-surprised/?utm_term=.6036368712fe) 
+  * [Methodological supplement](https://gregoryeady.com/Misc/Monkey_Cage_Flake_Methods_Supplement.pdf) explaining approach.
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
-#### Assorted
+---
 
-- *What the Academic Literature Tells Us about the Trump Victory*: A [list of relevant papers](https://zilinskyjan.github.io/trump-election-research).
-- My papers can also be found on [Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao).
+What does the academic literature say about the Trump 2016 victory? A [list of relevant papers](https://zilinskyjan.github.io/trump-election-research).

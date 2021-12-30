@@ -86,27 +86,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Jan Zilinsky: Background, Interests &amp; Teaching</title>
+  <title>Jan Zilinsky: Mini-bio</title>
   
   
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Jan Zilinsky: Background, Interests &amp; Teaching"/>
+  <meta property="og:title" content="Jan Zilinsky: Mini-bio"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Jan Zilinsky"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Jan Zilinsky: Background, Interests &amp; Teaching"/>
+  <meta property="twitter:title" content="Jan Zilinsky: Mini-bio"/>
   <meta property="twitter:site" content="@janzilinsky"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Background, Interests & Teaching"]},{"type":"NULL"}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Mini-bio"]},{"type":"NULL"}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2108,7 +2108,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
   </style>
-  <style type="text/css">
+  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  
+  :root {
+    --font-body:   Lato,-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
+    --font-header: Montserrat, Inter,Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+  
+  /* Inspiration from:  https://github.com/joelnitta/joelnitta-home/blob/main/jnitta_theme.css */
+   
+    /* color scheme save on https://coolors.co as "moorea" */
+    --color-background:   #fdfcfd;
+    --color-background2:  #F5EFED;
+    --color-primary:      #5F85A7;
+    --color-primary-dark: #0E0E52;
+    --color-secondary:    #6E928B;
+    --color-tertiary:     #D62839;
+    --color-text:         #161A1D;
+    --color-white:        #FFFFFF;
+  }
+  
   /* base variables */
   
   /* Edit the CSS properties in this file to create a custom
@@ -2120,32 +2142,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
-  @import url('https://fonts.googleapis.com/css2?family=Amiri');
-  @import url('https://fonts.googleapis.com/css2?family=Bitter');
-  @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
-  @import url('https://fonts.googleapis.com/css2?family=Lato');
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat');
   
   html {
     /*-- Main font sizes --*/
-    --title-size:      36px;
+    --title-size:      50px;
     --body-size:       1.06rem;
     --code-size:       14px;
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #000000;
+    --title-color:     var(--color-text);
     --header-color:    rgba(0, 0, 0, 0.8);
     --body-color:      rgba(0, 0, 0, 0.8);
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    "Amiri", serif;
-    --mono-font:       "DM Mono", monospace;
-    --body-font:       "Bitter", sans-serif;
-    --navbar-font:     "Amiri", serif;
+    --heading-font:    var(--font-header);
+    --mono-font:       var(--font-mono);
+    --body-font:       var(--font-body);
+    --navbar-font:     var(--font-header);
   }
+  
+  
   
   /*-- ARTICLE METADATA --*/
   d-byline {
@@ -2165,8 +2183,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-appendix {
     --heading-size:    15px;
     --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.9em;
-    --text-color:      rgba(0, 0, 0, 0.8);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
   }
   
   /*-- WEBSITE HEADER + FOOTER --*/
@@ -2174,25 +2192,167 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   .distill-site-header {
     --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #127A94;
+    --text-color:       var(--color-primary);
+    --text-size:        18px;
+    --hover-color:      var(--color-secondary);
+    --bkgd-color:       var(--color-background);
+    font-weight:        500;
   }
   
   .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-color:       #ededeb;
     --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
+    --hover-color:      var(--color-white);
+    --bkgd-color:       var(--color-primary);
   }
   
   /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  p a:hover  {
-      color: #26D7B2;
+  /* Add any additional CSS rules below */
+  
+  h1.title {
+    font-size: 28px;
+    color: DarkRed;
   }
-  </style>
+  h1 { /* Header 1 */
+    font-size: 22px;
+    color: DarkBlue;
+  }
+  
+  html body {
+      background-color: var(--color-background);
+  }
+  
+  /* Links */
+  
+  a {
+      color: var(--color-primary);
+      border-bottom: 0px;
+      text-decoration: none;
+  }
+  
+  d-article a {
+      color: var(--color-primary);
+      border-bottom: 0px;
+      text-decoration: none;
+  }
+  
+  a:hover, a:focus {
+      color: var(--color-secondary);
+      font-weight: 500;
+      border-color: var(--color-secondary);
+  }
+  
+  d-article a:hover, a:focus {
+      color: var(--color-secondary);
+      font-weight: 500;
+      border-color: var(--color-secondary);
+  }
+  
+  /* Buttons on home page */
+  
+  .btn-outline-dark {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      border: 0px;
+  }
+  
+  .btn-outline-dark:hover {
+      background-color: var(--color-secondary);
+  }
+  
+  /* Menu */
+  
+  .nav-dropdown-content a {
+      color: var(--color-primary);
+  }
+  
+  .nav-dropdown-content a:hover {
+      background-color: var(--color-background);
+  }
+  
+  /* Link buttons */
+  
+  .icon-link {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  
+  .icon-link:hover {
+      background-color: var(--color-secondary);
+      color: var(--color-white);
+  }
+  
+  /* For floating images - see lab page, for example */
+  
+  .float-left img {
+      float:left;
+      padding: 5px 10px 5px 0px;
+  }
+  
+  .float-right img {
+      float:right;
+      padding: 5px 0px 5px 10px;
+  }
+  
+  /* Footer */
+  
+  .distill-site-footer p {
+      margin-bottom: 0em;
+  }
+  
+  /* Pubs page */
+  
+  .pub {
+      margin: 0 0 15px 0;
+  }
+  
+  /* For dropping a shadow behind images */
+  .shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  d-article img {
+    margin-bottom: 10px;
+  }
+  
+  /* Smaller spacing in bullet lists */
+  
+  d-article li {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  d-article ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  /* Code chunks */
+  
+  d-article pre { /* Chunk output */
+    border-radius: 5px; /* Rounded edges */
+    font-size: 12px;
+    color: #fff;
+    background-color: #696969;
+    padding: 5px 5px 5px 18px;
+    overflow: auto !important;
+  }
+  
+  d-article div.sourceCode pre { /* Chunk code */
+    border-radius: 5px; /* Rounded edges */
+    background-color: #fff;
+    color: black;
+    padding: 5px 5px 5px 18px;
+    overflow: auto !important;
+  }
+  
+  d-article div.sourceCode {
+    background-color: transparent;
+  }</style>
   <style type="text/css">
   /* base style */
   
@@ -2374,7 +2534,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Background, Interests & Teaching","authors":[]}
+{"title":"Mini-bio","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2398,7 +2558,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Background, Interests &amp; Teaching</h1>
+<h1>Mini-bio</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2406,21 +2566,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<p><em>How you can contact me</em>: zilinsky (at) nyu.edu</p>
+<p>Before coming to TUM, I worked on my PhD at NYU, and worked on projects related to <a href="https://www.sciencedirect.com/science/article/pii/S2214658X1630006X">discrimination</a>, <a href="https://piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense">inclusive capitalism</a>, and behavioral economics. Most of these projects were done at MIT and at the Peterson Institute for International Economics.</p>
 <p>My goal is to improve our understanding of the connection between voting, economic outcomes, public opinion, and the media through rigorous research.</p>
-<p>Before coming to NYU, I have worked on projects related to <a href="https://www.sciencedirect.com/science/article/pii/S2214658X1630006X">discrimination</a>, <a href="https://piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense">inclusive capitalism</a>, and behavioral economics. Most of these projects were done at MIT and at the Peterson Institute for International Economics.</p>
-<p><strong>Teaching | </strong> As a Data Fellow at NYU, I have advised undergraduate students on research design, tidying data, and interpreting empirical results. My teaching experience is in three fields:</p>
+<p><strong>Teaching</strong></p>
+<p>As a Data Fellow at NYU, I have advised undergraduate students on research design, tidying data, and interpreting empirical results. My teaching experience is in three fields:</p>
 <ul>
-<li><p><em>Data Science</em>: Taught topics in machine learning including model selection, false discovery rates, classification and decision trees, the bootstrap and cross-validation. I am also interested in teaching data visualization and text-as-data.</p></li>
-<li><p><em>Political Science</em>: TA for various courses, including political philosophy.</p></li>
-<li><p><em>Economics</em>: Designed and taught a course on experimental economics. TA-ed a large Behavioral Economics course.</p>
+<li><em>Data Science</em>: Taught topics in machine learning including model selection, false discovery rates, classification and decision trees, the bootstrap and cross-validation. I am also interested in teaching data visualization and text-as-data.</li>
+<li><em>Political Science</em></li>
+<li><em>Economics</em>: Designed and taught a course on experimental economics. TA-ed a large Behavioral Economics course led by David Laibson and Andrei Shleifer.
 <ul>
 <li><a href="files/teaching/970-summary.pdf">Course Overview</a> | <a href="https://github.com/zilinskyjan/archive/blob/master/teaching/Harvard/Economics_970.pdf">Syllabus and readings</a>.</li>
 </ul></li>
 </ul>
 <h4 id="education">Education</h4>
-<p><strong>MPhil</strong> | New York University, 2021; PhD expected. <br> <strong>MBA</strong> | University of Chicago, 2014 <br> <strong>BA, Economics</strong> | Harvard University, 2009 <br></p>
+<p><strong>MPhil</strong> | New York University, 2021; PhD (conferral in 2022) <br> <strong>MBA</strong> | University of Chicago, 2014 <br> <strong>BA, Economics</strong> | Harvard University, 2009 <br></p>
 <hr />
-<p><em>How to get in touch</em>: zilinsky (at) nyu.edu.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
