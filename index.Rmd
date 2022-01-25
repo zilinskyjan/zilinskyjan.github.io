@@ -25,18 +25,17 @@ knitr::opts_chunk$set(echo = FALSE)
 # In ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org), my co-authors and I investigate how media consumption and exposure to misinformation influences voters' beliefs and decisions.
 ```
 
-I study how citizens organize and filter economic and political information. 
+I study how citizens organize and process economic and political information. 
 
-**Core research interests:** Technology & Politics, Public Opinion, Text as Data and related methods
+**Core research interests:** Technology & Politics, Public Opinion, Text as Data and related methods. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
 
 ### Teaching
 
-- [Insurgent Politics](https://www.craft.do/s/ZTnXBdqk27cPE4) (Winter 2021, Spring 2022)
-- Behavioral Political Economy & Psychology (Winter 2021, Spring 2022)
+- [Social Media and Conspiracy Theories](https://www.craft.do/s/ZTnXBdqk27cPE4) (Winter 2021, Spring 2022)
+- Political and Economic Persuasion (Winter 2021, Spring 2022)
+- [Note](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers.
 
 ### Research
-
-I work at TUM, and you can see the list of my co-authors on [Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao).
 
 - Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. With [Seo-young Silvia Kim](https://sysilviakim.com). <br>
 [Pre-print](https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e) | [Code on Github](https://github.com/sysilviakim/surveyML) | [MPSA Slides](https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf) | [Podcast](https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/)
