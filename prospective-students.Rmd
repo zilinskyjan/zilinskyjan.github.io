@@ -6,7 +6,7 @@ output: distill::distill_article
 
 ## Thesis writers 
 
-If you are Masters student at TUM and are planning to write a thesis, I may be able to serve as your adviser. 
+If you are a Masters student at TUM and are planning to write a thesis, I may be able to serve as your adviser. 
 
 The core topics for supervision are:
 
@@ -17,11 +17,11 @@ The core topics for supervision are:
 - Populism
 - Digital media
 
+## Current students
+
+- My "doors" (currently mostly Zoom) are open to you if you wish to talk about the course material, or about your career plans.
+- Other courses offered by our research group are normally [listed here](https://www.sites.hfp.tum.de/en/digitalgovernance/teaching/).
+
 ## Prospective students 
 
 If you are a PhD student at one of the universities in Munich and wish to work on computational social science problems, you are welcome to contact me.
-
-## Current students
-
-- Other courses offered by our research group are normally [listed here](https://www.sites.hfp.tum.de/en/digitalgovernance/teaching/).
-- My "doors" (currently mostly Zoom) are open to you if you wish to talk about the course material, or about your career plans.
