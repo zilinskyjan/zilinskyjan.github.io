@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 *How you can contact me*: zilinsky (at) nyu.edu
 
-Before coming to TUM, I worked on my PhD at NYU, and worked on projects related to [discrimination](https://www.sciencedirect.com/science/article/pii/S2214658X1630006X), [inclusive capitalism](https://piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense), and behavioral economics. Most of these projects were done at MIT and at the Peterson Institute for International Economics.
+Before coming to TUM, I did my PhD at NYU, and worked on projects related to [discrimination](https://www.sciencedirect.com/science/article/pii/S2214658X1630006X), [inclusive capitalism](https://piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense), and behavioral economics. Most of these projects were done at MIT and at the Peterson Institute for International Economics.
 
 My goal is to improve our understanding of the connection between voting, economic outcomes, public opinion, and the media through rigorous research. 
 
@@ -24,7 +24,8 @@ As a Data Fellow at NYU, I have advised undergraduate students on research desig
 
 #### Education 
 
-**MPhil** | New York University, 2021; PhD (conferral in 2022) <br>
+**PhD** | New York University, 2022 <br> 
+**MPhil** | New York University, 2021 <br> 
 **MBA** | University of Chicago, 2014  <br>
 **BA, Economics** | Harvard University, 2009 <br> 
 

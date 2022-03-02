@@ -37,10 +37,11 @@ I study how citizens organize and process economic and political information.
 
 ### Research
 
+- Geographic Boundaries and Local Economic Conditions Matter for Views of the Economy. 2022. **Political Analysis**. With [James Bisbee](https://www.jamesbisbee.com). <br>
+[Paper](https://www.cambridge.org/core/journals/political-analysis/article/abs/geographic-boundaries-and-local-economic-conditions-matter-for-views-of-the-economy/32C8C058B8E16CAD48374F95B2B1B3EF) | [Code and data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C1XZKK)
+
 - Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. With [Seo-young Silvia Kim](https://sysilviakim.com). <br>
 [Pre-print](https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e) | [Code on Github](https://github.com/sysilviakim/surveyML) | [MPSA Slides](https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf) | [Podcast](https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/)
-
-- Geographic Boundaries Matter for Views of the Economy: Evidence from Administrative Data and Subjective Economic Evaluations. Conditionally Accepted at **Political Analysis**. With [James Bisbee](https://www.jamesbisbee.com).
 
 - Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities. **Perspectives on Politics**, 2020. With Vaccari, C., Nagler, J. & Tucker, J. A.
 [PDF](https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/dont-republicans-tweet-too-using-twitter-to-assess-the-consequences-of-political-endorsements-by-celebrities/B2915BB8FBD93D0555D8C3D77CB00E65) | [Monkey Cage summary](https://www.washingtonpost.com/politics/2019/10/28/think-celebrities-get-punished-being-political-fact-they-get-retweeted/)
