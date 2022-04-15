@@ -31,7 +31,7 @@ I study how citizens organize and process economic and political information.
 
 ### Teaching
 
-- [Social Media and Conspiracy Theories](https://www.craft.do/s/ZTnXBdqk27cPE4) (Winter 2021, Spring 2022)
+- [Social Media and Conspiracy Theories](https://www.craft.do/s/YEQ3X7OAxDyrhO) (Winter 2021, Spring 2022)
 - [Political and Economic Persuasion](https://www.craft.do/s/1qd2aP3whPXKcq) (Winter 2021, Spring 2022)
 - [Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
 
@@ -78,6 +78,4 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
----
-
-What does the academic literature say about the Trump 2016 victory? A [list of relevant papers](https://zilinskyjan.github.io/trump-election-research).
+* [Trump studies](https://zilinskyjan.github.io/trump-election-research) 
