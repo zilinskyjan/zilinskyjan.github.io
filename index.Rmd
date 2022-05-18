@@ -64,7 +64,7 @@ I study how citizens organize and process economic and political information.
 
 - What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. [MPSA Slides](https://zilinskyjan.github.io/slides/MPSA_2019_Twitter.pdf).
 
-- What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. [Preliminary results](https://polmeth.theopenscholar.com/files/polmeth2020/files/polmethxxxvii_bisbee.pdf).
+- What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. 
 
 - Predicting Economic Evaluations. A methodological [summary](https://osf.io/7bgne/).
 
@@ -74,12 +74,10 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
 
 #### Other publications and links
 
-- Affective polarization and belief in voter fraud. ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021)
-  - [Supplementary analysis](https://csmapnyu.org/wp-content/uploads/2021/03/voter-fraud-TMC-results.pdf)
+- Affective polarization and belief in voter fraud. ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021.) [Supplementary analysis](https://csmapnyu.org/assets/publications/2021_03_02_TMC_fraud.pdf)
 - Trump supporters who think he didn't keep his promises are more likely to vote for Joe Biden in 2020. ([Monkey Cage](https://www.washingtonpost.com/politics/2020/10/28/did-trump-keep-his-campaign-promises-heres-what-americans-think/), October 2020)
 - Explaining reactions to Tweets about the Squad ([Washington Post, Monkey Cage analysis](https://www.washingtonpost.com/politics/2019/07/20/why-didnt-more-congressional-republicans-condemn-trumps-racist-tweets-about-squad-this-graph-explains/))
-* [Ideological estimation with Twitter data](https://www.washingtonpost.com/news/monkey-cage/wp/2018/10/05/trying-to-understand-how-jeff-flake-is-leaning-we-analyzed-his-twitter-feed-and-were-surprised/?utm_term=.6036368712fe) 
-  * [Methodological supplement](https://gregoryeady.com/Misc/Monkey_Cage_Flake_Methods_Supplement.pdf) explaining approach.
+* [Ideological estimation with Twitter data](https://www.washingtonpost.com/news/monkey-cage/wp/2018/10/05/trying-to-understand-how-jeff-flake-is-leaning-we-analyzed-his-twitter-feed-and-were-surprised/?utm_term=.6036368712fe). [Methodological supplement](https://gregoryeady.com/Misc/Monkey_Cage_Flake_Methods_Supplement.pdf) explaining approach.
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
