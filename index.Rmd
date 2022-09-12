@@ -37,6 +37,9 @@ I study how citizens organize and process economic and political information.
 
 ### Publications
 
+- Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. 2022. **Political Behavior**. With [Seo-young Silvia Kim](https://sysilviakim.com). <br>
+[Published paper (open-access)](https://link.springer.com/article/10.1007/s11109-022-09816-z) | [Pre-print](https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e) | [Code on Github](https://github.com/sysilviakim/surveyML) | [MPSA Slides](https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf) | [Podcast](https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/)
+
 - Geographic Boundaries and Local Economic Conditions Matter for Views of the Economy. 2022. **Political Analysis**. With [James Bisbee](https://www.jamesbisbee.com). <br>
 [Paper](https://www.cambridge.org/core/journals/political-analysis/article/abs/geographic-boundaries-and-local-economic-conditions-matter-for-views-of-the-economy/32C8C058B8E16CAD48374F95B2B1B3EF) | [Code and data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C1XZKK)
 
@@ -52,19 +55,19 @@ I study how citizens organize and process economic and political information.
 - The Happiness Gap in Eastern Europe. **Journal of Comparative Economics**, 2016. With Simeon Djankov and Elena Nikolova.
 [PDF](http://www.sciencedirect.com/science/article/pii/S0147596715000888) | Summary: [Financial Times blog](https://www.ft.com/content/abae03a5-6b58-3f05-ac84-d298b0e47ab5) | Ungated [SSRN](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658136) & [OSF](https://osf.io/preprints/socarxiv/et7vz/) pre-prints
 
-### Work in progress
+### Preprints and ongoing work
 
-- The Distinctness of Social and Economic Identities. With Suzanna Linn, Jonathan Nagler. <br>
-[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4108071) | [Local pre-print](https://zilinskyjan.github.io/papers/Economic_Identity_2022.pdf)
+- The Limited Impact of Russia's Election Interference on Twitter in the 2016 US Election. With Gregory Eady, Tom Paskhalis, Denis Stukal, Richard Bonneau, Jonathan Nagler and Joshua A. Tucker). Conditionally Accepted at **Nature Communications**.
 
-- Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. With [Seo-young Silvia Kim](https://sysilviakim.com). <br>
-[Pre-print](https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e) | [Code on Github](https://github.com/sysilviakim/surveyML) | [MPSA Slides](https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf) | [Podcast](https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/)
-
-- Donate To Help Us Fight Back: Mobilization Rhetoric in Political Fundraising. With Seo-young Silvia Kim and Brian Brew.
+- Donate To Help Us Fight Back: Mobilization Rhetoric in Political Fundraising. With Seo-young Silvia Kim and Brian Brew. <br> 
+[APSA Preprint](https://preprints.apsanet.org/engage/apsa/article-details/62978471d18cdf8fa14b4060).
 
 - What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. [MPSA Slides](https://zilinskyjan.github.io/slides/MPSA_2019_Twitter.pdf).
 
 - What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. 
+
+- The Distinctness of Social and Economic Identities. With Suzanna Linn, Jonathan Nagler. <br>
+[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4108071) | [Local pre-print](https://zilinskyjan.github.io/papers/Economic_Identity_2022.pdf)
 
 - Predicting Economic Evaluations. A methodological [summary](https://osf.io/7bgne/).
 
