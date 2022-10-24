@@ -27,11 +27,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 I study how citizens organize and process economic and political information. 
 
-**Core research interests:** Technology & Politics, Public Opinion, Text as Data and related methods. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
+**Core research interests:** Technology & Politics, Public Opinion, Text as Data. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
 
 ### Teaching
 
-- [Social Media and Conspiracy Theories](https://www.craft.do/s/YEQ3X7OAxDyrhO) (Winter 2021, Spring 2022)
+- [Conspiracy Theories and Politics](https://www.craft.do/s/vtoANButumlrdy) (Winter 2021, Spring 2022, Winter 2022)
 - [Political and Economic Persuasion](https://www.craft.do/s/1qd2aP3whPXKcq) (Winter 2021, Spring 2022)
 - [Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
 
@@ -57,7 +57,7 @@ I study how citizens organize and process economic and political information.
 
 ### Preprints and ongoing work
 
-- The Limited Impact of Russia's Election Interference on Twitter in the 2016 US Election. With Gregory Eady, Tom Paskhalis, Denis Stukal, Richard Bonneau, Jonathan Nagler and Joshua A. Tucker). Conditionally Accepted at **Nature Communications**.
+- The Limited Impact of Russia's Election Interference on Twitter in the 2016 US Election. With Gregory Eady, Tom Paskhalis, Richard Bonneau, Jonathan Nagler and Joshua A. Tucker). Conditionally Accepted at **Nature Communications**.
 
 - Donate To Help Us Fight Back: Mobilization Rhetoric in Political Fundraising. With Seo-young Silvia Kim and Brian Brew. <br> 
 [APSA Preprint](https://preprints.apsanet.org/engage/apsa/article-details/62978471d18cdf8fa14b4060).
@@ -76,6 +76,7 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
 
 #### Other publications and links
 
+- Is the FBI Impartial? Over Half of Republicans Say ‘No.’ Allegations of Political Biases in Law Enforcement Can Hurt Democracy. With Jonathan Ladd, Sean Kates, and Joshua Tucker. Washington Post ([Monkey Cage analysis](https://www.washingtonpost.com/politics/2022/09/15/fbi-trump-republicans-democrats-maga/)). Sept. 2022.
 - Affective polarization and belief in voter fraud. ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021.) [Supplementary analysis](https://csmapnyu.org/assets/publications/2021_03_02_TMC_fraud.pdf)
 - Trump supporters who think he didn't keep his promises are more likely to vote for Joe Biden in 2020. ([Monkey Cage](https://www.washingtonpost.com/politics/2020/10/28/did-trump-keep-his-campaign-promises-heres-what-americans-think/), October 2020)
 - Explaining reactions to Tweets about the Squad ([Washington Post, Monkey Cage analysis](https://www.washingtonpost.com/politics/2019/07/20/why-didnt-more-congressional-republicans-condemn-trumps-racist-tweets-about-squad-this-graph-explains/))
