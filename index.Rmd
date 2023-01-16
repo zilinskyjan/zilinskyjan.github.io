@@ -29,12 +29,6 @@ I study how citizens organize and process economic and political information.
 
 **Core research interests:** Technology & Politics, Public Opinion, Text as Data. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
 
-### Teaching
-
-- [Conspiracy Theories and Politics](https://www.craft.do/s/vtoANButumlrdy) (Winter 2021, Spring 2022, Winter 2022)
-- [Political and Economic Persuasion](https://www.craft.do/s/1qd2aP3whPXKcq) (Winter 2021, Spring 2022)
-- [Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
-
 ### Publications
 
 - Exposure to the Russian Internet Research Agency foreign influence campaign on Twitter in the 2016 US election and its relationship to attitudes and voting behavior. 2023. With Gregory Eady, Tom Paskhalis, Richard Bonneau, Jonathan Nagler and Joshua A. Tucker. **Nature Communications**. [Published paper (open-access)](https://www.nature.com/articles/s41467-022-35576-9). [Short summary](https://csmapnyu.org/news-views/news/exposure-to-russian-twitter-campaigns-in-2016-presidential-race-highly-concentrated-largely-limited-to-strongly-partisan-republicans). Coverage: [Washington Post](https://www.washingtonpost.com/politics/2023/01/09/russian-trolls-twitter-had-little-influence-2016-voters/), [Nieman Journalism Lab](https://www.niemanlab.org/2023/01/good-news-misinformation-isnt-as-powerful-as-feared-bad-news-neither-is-information/), [The Hill TV](https://www.youtube.com/watch?v=baFTYloKpCI), [Wall Street Journal](https://www.wsj.com/articles/does-twitter-disinformation-even-work-russian-trolls-2016-election-nature-communications-study-elon-musk-donald-trump-vladimir-putin-11673375453), [The Intercept](https://theintercept.com/2023/01/10/russia-twitter-bots-trump-election/), [Tech Policy Press podcast](https://techpolicy.press/examining-the-impact-of-internet-research-agency-tweets-in-the-2016-u-s-election/), [Other](https://nature.altmetric.com/details/140986471/news)
@@ -85,3 +79,10 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
 * [Trump studies](https://zilinskyjan.github.io/trump-election-research) 
+
+### Teaching
+
+- [Conspiracy Theories and Politics](https://www.craft.do/s/vtoANButumlrdy) (Winter 2021, Spring 2022, Winter 2022)
+- [Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
+
+
