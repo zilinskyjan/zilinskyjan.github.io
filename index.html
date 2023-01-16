@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -529,6 +530,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -770,10 +772,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1605,9 +1603,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1619,6 +1629,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1718,6 +1753,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1740,7 +1777,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2256,7 +2293,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2324,22 +2361,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </ul>
 <h3 id="publications">Publications</h3>
 <ul>
-<li><p>Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. 2022. <strong>Political Behavior</strong>. With <a href="https://sysilviakim.com">Seo-young Silvia Kim</a>. <br> <a href="https://link.springer.com/article/10.1007/s11109-022-09816-z">Published paper (open-access)</a> | <a href="https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e">Pre-print</a> | <a href="https://github.com/sysilviakim/surveyML">Code on Github</a> | <a href="https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf">MPSA Slides</a> | <a href="https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/">Podcast</a></p></li>
-<li><p>Geographic Boundaries and Local Economic Conditions Matter for Views of the Economy. 2022. <strong>Political Analysis</strong>. With <a href="https://www.jamesbisbee.com">James Bisbee</a>. <br> <a href="https://www.cambridge.org/core/journals/political-analysis/article/abs/geographic-boundaries-and-local-economic-conditions-matter-for-views-of-the-economy/32C8C058B8E16CAD48374F95B2B1B3EF">Paper</a> | <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C1XZKK">Code and data</a></p></li>
-<li><p>Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities. <strong>Perspectives on Politics</strong>, 2020. With Vaccari, C., Nagler, J. &amp; Tucker, J. A. <a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/dont-republicans-tweet-too-using-twitter-to-assess-the-consequences-of-political-endorsements-by-celebrities/B2915BB8FBD93D0555D8C3D77CB00E65">PDF</a> | <a href="https://www.washingtonpost.com/politics/2019/10/28/think-celebrities-get-punished-being-political-fact-they-get-retweeted/">Monkey Cage summary</a></p></li>
-<li><p>Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy. <strong>Research &amp; Politics</strong>, 2019. <a href="https://journals.sagepub.com/doi/10.1177/2053168018814332">PDF (open-access)</a></p></li>
-<li><p>How Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data. <strong>Sage Open</strong>, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker. <a href="https://journals.sagepub.com/doi/full/10.1177/2158244019832705">PDF (open-access)</a> | Summaries: <a href="https://psmag.com/news/ideological-bubbles-turns-out-liberals-and-conservatives-mainly-follow-the-same-news-sources">Pacific Standard</a>, <a href="https://twitter.com/andyguess/status/1102962970227810304">Main chart</a></p></li>
-<li><p>The Happiness Gap in Eastern Europe. <strong>Journal of Comparative Economics</strong>, 2016. With Simeon Djankov and Elena Nikolova. <a href="http://www.sciencedirect.com/science/article/pii/S0147596715000888">PDF</a> | Summary: <a href="https://www.ft.com/content/abae03a5-6b58-3f05-ac84-d298b0e47ab5">Financial Times blog</a> | Ungated <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658136">SSRN</a> &amp; <a href="https://osf.io/preprints/socarxiv/et7vz/">OSF</a> pre-prints</p></li>
+<li><p>Exposure to the Russian Internet Research Agency foreign influence campaign on Twitter in the 2016 US election and its relationship to attitudes and voting behavior. 2023. With Gregory Eady, Tom Paskhalis, Richard Bonneau, Jonathan Nagler and Joshua A. Tucker. <strong>Nature Communications</strong>. <a href="https://www.nature.com/articles/s41467-022-35576-9">Published paper (open-access)</a>. <a href="https://csmapnyu.org/news-views/news/exposure-to-russian-twitter-campaigns-in-2016-presidential-race-highly-concentrated-largely-limited-to-strongly-partisan-republicans">Short summary</a>. Coverage: <a href="https://www.washingtonpost.com/politics/2023/01/09/russian-trolls-twitter-had-little-influence-2016-voters/">Washington Post</a>, <a href="https://www.niemanlab.org/2023/01/good-news-misinformation-isnt-as-powerful-as-feared-bad-news-neither-is-information/">Nieman Journalism Lab</a>, <a href="https://www.youtube.com/watch?v=baFTYloKpCI">The Hill TV</a>, <a href="https://www.wsj.com/articles/does-twitter-disinformation-even-work-russian-trolls-2016-election-nature-communications-study-elon-musk-donald-trump-vladimir-putin-11673375453">Wall Street Journal</a>, <a href="https://theintercept.com/2023/01/10/russia-twitter-bots-trump-election/">The Intercept</a>, <a href="https://techpolicy.press/examining-the-impact-of-internet-research-agency-tweets-in-the-2016-u-s-election/">Tech Policy Press podcast</a>, <a href="https://nature.altmetric.com/details/140986471/news">Other</a></p></li>
+<li><p>Division Does Not Imply Predictability: Demographics Continue to Reveal Little About Voting and Partisanship. 2022. <strong>Political Behavior</strong>. With <a href="https://sysilviakim.com">Seo-young Silvia Kim</a>. <br>
+<a href="https://link.springer.com/article/10.1007/s11109-022-09816-z">Published paper (open-access)</a> | <a href="https://preprints.apsanet.org/engage/apsa/article-details/607dd8cb331f302dc365f87e">Pre-print</a> | <a href="https://github.com/sysilviakim/surveyML">Code on Github</a> | <a href="https://zilinskyjan.github.io/slides/surveyML_MPSA.pdf">MPSA Slides</a> | <a href="https://www.niskanencenter.org/is-demographic-and-geographic-polarization-overstated/">Podcast</a></p></li>
+<li><p>Geographic Boundaries and Local Economic Conditions Matter for Views of the Economy. 2022. <strong>Political Analysis</strong>. With <a href="https://www.jamesbisbee.com">James Bisbee</a>. <br>
+<a href="https://www.cambridge.org/core/journals/political-analysis/article/abs/geographic-boundaries-and-local-economic-conditions-matter-for-views-of-the-economy/32C8C058B8E16CAD48374F95B2B1B3EF">Paper</a> | <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C1XZKK">Code and data</a></p></li>
+<li><p>Don’t Republicans Tweet Too? Using Twitter to Assess the Consequences of Political Endorsements by Celebrities. <strong>Perspectives on Politics</strong>, 2020. With Vaccari, C., Nagler, J. &amp; Tucker, J. A.
+<a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/dont-republicans-tweet-too-using-twitter-to-assess-the-consequences-of-political-endorsements-by-celebrities/B2915BB8FBD93D0555D8C3D77CB00E65">PDF</a> | <a href="https://www.washingtonpost.com/politics/2019/10/28/think-celebrities-get-punished-being-political-fact-they-get-retweeted/">Monkey Cage summary</a></p></li>
+<li><p>Democratic deconsolidation revisited: Young Europeans are not dissatisfied with democracy.
+<strong>Research &amp; Politics</strong>, 2019. <a href="https://journals.sagepub.com/doi/10.1177/2053168018814332">PDF (open-access)</a></p></li>
+<li><p>How Many People Live in Political Bubbles on Social Media? Evidence from Linked Survey and Twitter Data. <strong>Sage Open</strong>, 2019. With Gregory Eady, Jonathan Nagler, Andrew Guess, and Joshua Tucker.
+<a href="https://journals.sagepub.com/doi/full/10.1177/2158244019832705">PDF (open-access)</a> | Summaries: <a href="https://psmag.com/news/ideological-bubbles-turns-out-liberals-and-conservatives-mainly-follow-the-same-news-sources">Pacific Standard</a>, <a href="https://twitter.com/andyguess/status/1102962970227810304">Main chart</a></p></li>
+<li><p>The Happiness Gap in Eastern Europe. <strong>Journal of Comparative Economics</strong>, 2016. With Simeon Djankov and Elena Nikolova.
+<a href="http://www.sciencedirect.com/science/article/pii/S0147596715000888">PDF</a> | Summary: <a href="https://www.ft.com/content/abae03a5-6b58-3f05-ac84-d298b0e47ab5">Financial Times blog</a> | Ungated <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658136">SSRN</a> &amp; <a href="https://osf.io/preprints/socarxiv/et7vz/">OSF</a> pre-prints</p></li>
 </ul>
 <h3 id="preprints-and-ongoing-work">Preprints and ongoing work</h3>
 <ul>
-<li><p>The Limited Impact of Russia’s Election Interference on Twitter in the 2016 US Election. With Gregory Eady, Tom Paskhalis, Richard Bonneau, Jonathan Nagler and Joshua A. Tucker). Conditionally Accepted at <strong>Nature Communications</strong>.</p></li>
-<li><p>Donate To Help Us Fight Back: Mobilization Rhetoric in Political Fundraising. With Seo-young Silvia Kim and Brian Brew. <br> <a href="https://preprints.apsanet.org/engage/apsa/article-details/62978471d18cdf8fa14b4060">APSA Preprint</a>.</p></li>
+<li><p>Donate To Help Us Fight Back: Mobilization Rhetoric in Political Fundraising. With Seo-young Silvia Kim and Brian Brew. <br>
+<a href="https://preprints.apsanet.org/engage/apsa/article-details/62978471d18cdf8fa14b4060">APSA Preprint</a>.</p></li>
 <li><p>What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. <a href="https://zilinskyjan.github.io/slides/MPSA_2019_Twitter.pdf">MPSA Slides</a>.</p></li>
 <li><p>What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens’ Economic and Life Evaluations. Project with James Bisbee.</p></li>
-<li><p>The Distinctness of Social and Economic Identities. With Suzanna Linn, Jonathan Nagler. <br> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4108071">SSRN</a> | <a href="https://zilinskyjan.github.io/papers/Economic_Identity_2022.pdf">Local pre-print</a></p></li>
+<li><p>The Distinctness of Social and Economic Identities. With Suzanna Linn, Jonathan Nagler. <br>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4108071">SSRN</a> | <a href="https://zilinskyjan.github.io/papers/Economic_Identity_2022.pdf">Local pre-print</a></p></li>
 <li><p>Predicting Economic Evaluations. A methodological <a href="https://osf.io/7bgne/">summary</a>.</p></li>
-<li><p>“People Like Me Are Falling Behind:” Measuring Perceptions of Inequality Using Novel Survey Questions. Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.</p></li>
+<li><p>“People Like Me Are Falling Behind:” Measuring Perceptions of Inequality Using Novel Survey Questions.
+Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.</p></li>
 </ul>
 <h4 id="other-publications-and-links">Other publications and links</h4>
 <ul>
