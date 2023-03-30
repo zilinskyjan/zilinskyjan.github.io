@@ -82,7 +82,7 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
-### Other 
+### Some other work
 
 * [Survey questions I wrote](https://zilinskyjan.github.io/surveys)
 
@@ -91,7 +91,8 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
 ### Teaching
 
 - [Conspiracy Theories and Politics](https://www.craft.do/s/vtoANButumlrdy) (Winter 2021, Spring 2022, Winter 2022)
-- Telling stories with R: Data Visualization (Winter 2022, Spring 2023)
+- Campaigns, Elections, and Social Media (Winter 2022, Spring 2023)
+- Telling stories with R and Data Visualization (Winter 2022, Spring 2023)
 - [Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
 
 
