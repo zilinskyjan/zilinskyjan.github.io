@@ -1,0 +1,40 @@
+---
+title: "Survey questions"
+description: "A list of some of the survey instruments I wrote and fielded (often with co-authors)"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+### Attributions of responsibility for inflation
+
+![](files/yougov-inflation.png)
+
+### A contrarianism scale (with Adam Enders)
+
+1. If you want to know the truth, you have to do your own research.
+2. People are too willing to believe everything they hear from the news.
+3. I don’t let others tell me what to think.
+4. When someone tries to force me to believe something I stand my ground.
+5. Most people are basically sheep, unable to think for themselves.
+6. If most people believe something, it’s probably wrong.
+
+### Economic intuitions
+
+*To what extent do you agree with the following statements?*
+
+1. Most economic problems in our country have simple, common-sense solutions.
+2. When other countries prosper, it is bad news for America.
+3. If someone becomes successful and makes a lot of money, it means that someone else has to make less money.
+4. Today, most companies don’t compete for customers, they prey on their customers.
+5. Trade with other countries makes most Americans better off because they can buy goods that are assembled cheaply abroad.
+
+5-point scale: Agree strongly; Agree; Neither agree nor disagree; Disagree; Strongly disagree.
+
+### Attitudes toward free speech (with TUM and Oxford collaborators)
+
+- “Self-censorship is never acceptable.” (1-7 scale)
+- “Offensive speech can be useful.” (1-7 scale)
+- “Comedians should be allowed to say anything.” (1-7 scale)
+
+
+
