@@ -25,9 +25,9 @@ knitr::opts_chunk$set(echo = FALSE)
 # In ongoing work at the [Center for Social Media and Politics](https://csmapnyu.org), my co-authors and I investigate how media consumption and exposure to misinformation influences voters' beliefs and decisions.
 ```
 
-I study how citizens organize and process economic and political information. 
+I study how citizens organize and process economic and political information to make decisions. 
 
-**Core research interests:** Technology & Politics, Public Opinion, Text as Data. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
+**Core research interests:** Public Opinion, Technology & Politics, Anti-establishment Sentiment, Text as Data. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
 
 ### Publications
 
@@ -53,10 +53,14 @@ I study how citizens organize and process economic and political information.
 
 ### Preprints and ongoing work
 
+- Social Status and Beliefs in Conspiracy Theories. With Spyros Kosmidis and Yannis Theocharis.
+
 - Donate To Help Us Fight Back: Mobilization Rhetoric in Political Fundraising. With Seo-young Silvia Kim and Brian Brew. <br> 
-[APSA Preprint](https://preprints.apsanet.org/engage/apsa/article-details/62978471d18cdf8fa14b4060).
+[APSA Preprint](https://preprints.apsanet.org/engage/apsa/article-details/641869c2dab08ad68f69d6ba).
 
 - What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. [MPSA Slides](https://zilinskyjan.github.io/slides/MPSA_2019_Twitter.pdf).
+
+- Justifying an Invasion: Where and Why is Disinformation Successful? (with many ca-authors)
 
 - What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. 
 
@@ -78,12 +82,16 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
-* [Trump studies](https://zilinskyjan.github.io/trump-election-research) 
+### Other 
+
+* [Survey questions I wrote](https://zilinskyjan.github.io/surveys)
+
+* [Trump studies (papers about the Trump 2016 victory)](https://zilinskyjan.github.io/trump-election-research) 
 
 ### Teaching
 
 - [Conspiracy Theories and Politics](https://www.craft.do/s/vtoANButumlrdy) (Winter 2021, Spring 2022, Winter 2022)
-- [Data Visualization](Telling stories with R: Data Visualization)
+- Telling stories with R: Data Visualization (Winter 2022, Spring 2023)
 - [Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
 
 
