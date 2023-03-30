@@ -7,9 +7,11 @@ output: distill::distill_article
 
 ### Attributions of responsibility for inflation
 
+Included the following set of items on a 2022 poll and randomly varied whether Biden was explicitly mentioned or not.
+
 ![](files/yougov-inflation.png)
 
-### A contrarianism scale (with Adam Enders)
+### A contrarianism scale (with A. Enders)
 
 1. If you want to know the truth, you have to do your own research.
 2. People are too willing to believe everything they hear from the news.
@@ -18,7 +20,18 @@ output: distill::distill_article
 5. Most people are basically sheep, unable to think for themselves.
 6. If most people believe something, it’s probably wrong.
 
+*5-point scale: Strongly agree; Somewhat agree; Neither agree nor disagree; Somewhat disagree; Strongly disagree.*
+
+![](files/cont_2exhibits.png)
+
+![](files/need_for_chaos_heatmap.png)
+
+![](files/CT_heatmap.png)
+
+
 ### Economic intuitions
+
+Included the following question and items on a 2020 YouGov survey:
 
 *To what extent do you agree with the following statements?*
 
