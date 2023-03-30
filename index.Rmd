@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 I study how citizens organize and process economic and political information to make decisions. 
 
-**Core research interests:** Public Opinion, Technology & Politics, Anti-establishment Sentiment, Text as Data. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
+**Core research interests:** Public Opinion, Technology & Politics, Grievance politics (populism, conspiracies, etc.), Text as Data. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
 
 ### Publications
 
@@ -53,16 +53,10 @@ I study how citizens organize and process economic and political information to 
 
 ### Preprints and ongoing work
 
-- Social Status and Beliefs in Conspiracy Theories. With Spyros Kosmidis and Yannis Theocharis.
-
 - Donate To Help Us Fight Back: Mobilization Rhetoric in Political Fundraising. With Seo-young Silvia Kim and Brian Brew. <br> 
 [APSA Preprint](https://preprints.apsanet.org/engage/apsa/article-details/641869c2dab08ad68f69d6ba).
 
 - What People Learn From Twitter: Evidence from a Panel Survey Combined with Direct Observation of Social Media Activity. Paper with Greogy Eady, Richard Bonneau, Joshua Tucker and Jonathan Nagler. [MPSA Slides](https://zilinskyjan.github.io/slides/MPSA_2019_Twitter.pdf).
-
-- Justifying an Invasion: Where and Why is Disinformation Successful? (with many ca-authors)
-
-- What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. 
 
 - The Distinctness of Social and Economic Identities. With Suzanna Linn, Jonathan Nagler. <br>
 [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4108071) | [Local pre-print](https://zilinskyjan.github.io/papers/Economic_Identity_2022.pdf)
@@ -71,6 +65,12 @@ I study how citizens organize and process economic and political information to 
 
 - "People Like Me Are Falling Behind:" Measuring Perceptions of Inequality Using Novel Survey Questions.
 Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
+
+- Social Status and Beliefs in Conspiracy Theories. With Spyros Kosmidis and Yannis Theocharis.
+
+- Justifying an Invasion: Where and Why is Disinformation Successful? (with many ca-authors)
+
+- What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. 
 
 #### Other publications and links
 
