@@ -11,6 +11,13 @@ Included the following set of items on a 2022 poll and randomly varied whether B
 
 ![](files/yougov-inflation.png)
 
+### Accusatory & conspiratorial claims
+
+These instruments were included on a survey as part of a project investigating the relationships between social status, victimhood/vulnerability, and beliefs in conspiracy theories:
+
+1. *"Social media companies are hiding the truth about who is really to blame for the conflict in Ukraine."*
+2. *"The war in Ukraine was started to benefit companies making and selling weapons."*
+
 ### A contrarianism scale (with A. Enders)
 
 1. If you want to know the truth, you have to do your own research.
