@@ -63,12 +63,12 @@ I study how citizens organize and process economic and political information to 
 
 - Predicting Economic Evaluations. A methodological [summary](https://osf.io/7bgne/).
 
-- "People Like Me Are Falling Behind:" Measuring Perceptions of Inequality Using Novel Survey Questions.
-Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
+<!-- - "People Like Me Are Falling Behind:" Measuring Perceptions of Inequality Using Novel Survey Questions.
+Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 
 - Social Status and Beliefs in Conspiracy Theories. With Spyros Kosmidis and Yannis Theocharis.
 
-- Justifying an Invasion: Where and Why is Disinformation Successful? (with many ca-authors)
+- Justifying an Invasion: Where and Why is Disinformation Successful? (with many co-authors)
 
 - What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. 
 
@@ -77,7 +77,7 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.
 - Is the FBI Impartial? Over Half of Republicans Say ‘No.’ Allegations of Political Biases in Law Enforcement Can Hurt Democracy. With Jonathan Ladd, Sean Kates, and Joshua Tucker. Washington Post ([Monkey Cage analysis](https://www.washingtonpost.com/politics/2022/09/15/fbi-trump-republicans-democrats-maga/)). Sept. 2022.
 - Affective polarization and belief in voter fraud. ([Monkey Cage](https://www.washingtonpost.com/politics/2021/01/19/which-republicans-think-election-was-stolen-those-who-hate-democrats-dont-mind-white-nationalists/), January 2021.) [Supplementary analysis](https://csmapnyu.org/assets/publications/2021_03_02_TMC_fraud.pdf)
 - Trump supporters who think he didn't keep his promises are more likely to vote for Joe Biden in 2020. ([Monkey Cage](https://www.washingtonpost.com/politics/2020/10/28/did-trump-keep-his-campaign-promises-heres-what-americans-think/), October 2020)
-- Explaining reactions to Tweets about the Squad ([Washington Post, Monkey Cage analysis](https://www.washingtonpost.com/politics/2019/07/20/why-didnt-more-congressional-republicans-condemn-trumps-racist-tweets-about-squad-this-graph-explains/))
+- The Political Logic of Standing with Trump against the Squad ([Washington Post, Monkey Cage analysis](https://www.washingtonpost.com/politics/2019/07/20/why-didnt-more-congressional-republicans-condemn-trumps-racist-tweets-about-squad-this-graph-explains/))
 * [Ideological estimation with Twitter data](https://www.washingtonpost.com/news/monkey-cage/wp/2018/10/05/trying-to-understand-how-jeff-flake-is-leaning-we-analyzed-his-twitter-feed-and-were-surprised/?utm_term=.6036368712fe). [Methodological supplement](https://gregoryeady.com/Misc/Monkey_Cage_Flake_Methods_Supplement.pdf) explaining approach.
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
