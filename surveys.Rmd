@@ -11,6 +11,21 @@ Included the following set of items on a 2022 poll and randomly varied whether B
 
 ![](files/yougov-inflation.png)
 
+### Anti-technology sentiment (project with Thomas Zeitzoff)
+
+- I am worried that scientists are designing computer programs that could hurt humans.
+- Social media has mostly been a bad thing for society because it spreads hate and misinformation.
+- The reason our politics is so nasty is because of social media.
+- Social media apps can hurt children and teenagers.
+- Social media has made us lonelier.
+- Most of the social media apps are spying on us.
+- Social media makes people jealous of others. 
+
+Reverse-coded:
+
+- Social media has made it easier for me to stay connected with my friends and family.
+- Social media platforms can be a powerful tool for activism and social change
+
 ### Accusatory & conspiratorial claims
 
 These instruments were included on a survey as part of a project investigating the relationships between social status, victimhood/vulnerability, and beliefs in conspiracy theories:
