@@ -27,14 +27,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **Core research interests:** Public Opinion, Technology & Politics, Political Methodology. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
 
-
 I study how citizens digest political information, economic news, and controversial content -- toxic speech, conspiracy rhetoric, disinformation -- from online platforms, state actors, and political entrepreneurs. 
 
 # Latest
 
-- I will present new work on citizens' skepticism of technology (AI, social media, modern medicine) at the APSA [Political Communication pre-conference](https://cpg.comm.ucla.edu/preconf2023/) on Aug. 30 at UCLA.
-* This summer, I am a lecturer at the the Summer Institute in Computational Social Science: Lecture 1 ([html](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_01_digital_trace_data.html); [pdf](https://zilinskyjan.github.io/slides/SICSS_Digital_trace_data)), [Lecture 2](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_02_screenscraping.html#/title-slide), [Lecture 3](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_03_applications.html#/title-slide).
 * The code and some materials for my Data Visualization class are now [publicly available](http://zilinskyjan.github.io/DataViz/).
+- Presented new work on citizens' skepticism of technology (AI, social media, modern medicine) at the APSA [Political Communication pre-conference](https://cpg.comm.ucla.edu/preconf2023/) on Aug. 30 at UCLA.
+* July 2023: I was a lecturer at the the Summer Institute in Computational Social Science: Lecture 1 ([html](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_01_digital_trace_data.html); [pdf](https://zilinskyjan.github.io/slides/SICSS_Digital_trace_data)), [Lecture 2](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_02_screenscraping.html#/title-slide), [Lecture 3](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_03_applications.html#/title-slide).
+
 
 ## Publications
 
@@ -68,8 +68,6 @@ I study how citizens digest political information, economic news, and controvers
 - The Distinctness of Social and Economic Identities. With Suzanna Linn, Jonathan Nagler. <br>
 [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4108071) | [Local pre-print](https://zilinskyjan.github.io/papers/Economic_Identity_2022.pdf)
 
-- Predicting Economic Evaluations. A methodological [summary](https://osf.io/7bgne/).
-
 <!-- - "People Like Me Are Falling Behind:" Measuring Perceptions of Inequality Using Novel Survey Questions.
 Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 
@@ -77,7 +75,7 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 
 - Justifying an Invasion: Where and Why is Disinformation Successful? (with many co-authors)
 
-- What Matters to Voters? Examining Micro-Level and Macro-Level Drivers of Citizens' Economic and Life Evaluations. Project with James Bisbee. 
+- Predicting Economic Evaluations. A methodological [summary](https://osf.io/7bgne/).
 
 #### Other publications and links
 
@@ -89,7 +87,7 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
-### Misc.
+## Links
 
 * [Survey questions I wrote](https://zilinskyjan.github.io/surveys)
 
@@ -101,5 +99,3 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 - Campaigns, Elections, and Social Media (Winter 2022, Spring 2023)
 - Telling stories with R and Data Visualization (Winter 2022, Spring 2023)
 - [Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
-
-
