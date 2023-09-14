@@ -1,7 +1,7 @@
 ---
 title: "Jan Zilinsky"
 description: |
-  Post-doctoral research fellow
+  Computational political scientist
 site: distill::distill_website
 twitter:
   site: '@janzilinsky'
@@ -28,13 +28,6 @@ knitr::opts_chunk$set(echo = FALSE)
 **Core research interests:** Public Opinion, Technology & Politics, Political Methodology. ([Google Scholar](https://scholar.google.com/citations?user=bHW37e4AAAAJ&hl=en&oi=ao))
 
 I study how citizens digest political information, economic news, and controversial content -- toxic speech, conspiracy rhetoric, disinformation -- from online platforms, state actors, and political entrepreneurs. 
-
-# Latest
-
-* The code and some materials for my Data Visualization class are now [publicly available](http://zilinskyjan.github.io/DataViz/).
-- Presented new work on citizens' skepticism of technology (AI, social media, modern medicine) at the APSA [Political Communication pre-conference](https://cpg.comm.ucla.edu/preconf2023/) on Aug. 30 at UCLA.
-* July 2023: I was a lecturer at the the Summer Institute in Computational Social Science: Lecture 1 ([html](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_01_digital_trace_data.html); [pdf](https://zilinskyjan.github.io/slides/SICSS_Digital_trace_data)), [Lecture 2](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_02_screenscraping.html#/title-slide), [Lecture 3](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_03_applications.html#/title-slide).
-
 
 ## Publications
 
@@ -93,7 +86,12 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 
 * [Trump studies (papers about the Trump 2016 victory)](https://zilinskyjan.github.io/trump-election-research) 
 
-## Teaching
+## Lecture notes
+
+* The code and some materials for my Data Visualization class are now [publicly available](http://zilinskyjan.github.io/DataViz/).
+* Slides from the Summer Institute in Computational Social Science: Lecture 1 ([html](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_01_digital_trace_data.html); [pdf](https://zilinskyjan.github.io/slides/SICSS_Digital_trace_data)), [Lecture 2](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_02_screenscraping.html#/title-slide), [Lecture 3](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_03_applications.html#/title-slide).
+
+# Courses at TUM and information for students
 
 - [Conspiracy Theories and Politics](https://www.craft.do/s/vtoANButumlrdy) (Winter 2021, Spring 2022, Winter 2022)
 - Campaigns, Elections, and Social Media (Winter 2022, Spring 2023)
