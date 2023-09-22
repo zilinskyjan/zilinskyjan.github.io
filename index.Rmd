@@ -51,7 +51,7 @@ I study how citizens digest political information, economic news, and controvers
 - The Happiness Gap in Eastern Europe. **Journal of Comparative Economics**, 2016. With Simeon Djankov and Elena Nikolova.
 [PDF](http://www.sciencedirect.com/science/article/pii/S0147596715000888) | Summary: [Financial Times blog](https://www.ft.com/content/abae03a5-6b58-3f05-ac84-d298b0e47ab5) | Ungated [SSRN](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658136) & [OSF](https://osf.io/preprints/socarxiv/et7vz/) pre-prints
 
-## Preprints and ongoing work
+## Working papers
 
 - Do Users Ever Draw a Line? Offensiveness and Content Moderation Preferences on Social Media. With Franziska Pradel, Spyros Kosmidis and Yannis Theocharis. <br>
 [OSF Preprint](https://osf.io/y4xft/).
@@ -83,7 +83,7 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 * Fiscal tightening and economic growth ([VoxEu.org](https://voxeu.org/article/fiscal-tightening-and-economic-growth-exploring-cross-country-correlations))
 * Article in [Raising Lower-Level Wages: When and Why It Makes Economic Sense](https://www.piie.com/publications/piie-briefings/raising-lower-level-wages-when-and-why-it-makes-economic-sense)
 
-## Links
+## Surveys
 
 * [Survey questions I wrote](https://zilinskyjan.github.io/surveys)
 
@@ -91,12 +91,23 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 
 ## Lecture notes
 
-* The code and some materials for my Data Visualization class are now [publicly available](http://zilinskyjan.github.io/DataViz/).
-* Slides from the Summer Institute in Computational Social Science: Lecture 1 ([html](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_01_digital_trace_data.html); [pdf](https://zilinskyjan.github.io/slides/SICSS_Digital_trace_data.pdf)), [Lecture 2](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_02_screenscraping.html#/title-slide), [Lecture 3](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_03_applications.html#/title-slide).
+### Data science
 
-# Courses at TUM and information for students
+Slides from the Summer Institute in Computational Social Science: 
 
-- [Conspiracy Theories and Politics](https://www.craft.do/s/vtoANButumlrdy) (Winter 2021, Spring 2022, Winter 2022)
+- Lecture 1 ([html](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_01_digital_trace_data.html);  [pdf](https://zilinskyjan.github.io/slides/SICSS_Digital_trace_data.pdf))
+- [Lecture 2](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_02_screenscraping.html#/title-slide)
+- [Lecture 3](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_03_applications.html#/title-slide)
+
+### Data visualization
+
+The code and some materials for my Data visualization class are now [publicly available](http://zilinskyjan.github.io/DataViz/).
+
+### Courses at TUM and information for students
+
+[Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
+
+- [Conspiracy Theories and Politics](https://www.craft.do/s/vtoANButumlrdy) (Winter 2021, Spring 2022, Winter 2022, Spring 2023, Winter 2023)
 - Campaigns, Elections, and Social Media (Winter 2022, Spring 2023)
-- Telling stories with R and Data Visualization (Winter 2022, Spring 2023)
-- [Information](https://zilinskyjan.github.io/prospective-students) for prospective students & thesis writers
+- [Telling stories with R and Data Visualization](http://zilinskyjan.github.io/DataViz/) (Winter 2022, Spring 2023)
+
