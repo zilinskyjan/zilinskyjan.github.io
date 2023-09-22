@@ -92,7 +92,7 @@ Paper with Suzanna Linn, Jonathan Nagler, and Nathan Morse.-->
 ## Lecture notes
 
 * The code and some materials for my Data Visualization class are now [publicly available](http://zilinskyjan.github.io/DataViz/).
-* Slides from the Summer Institute in Computational Social Science: Lecture 1 ([html](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_01_digital_trace_data.html); [pdf](https://zilinskyjan.github.io/slides/SICSS_Digital_trace_data)), [Lecture 2](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_02_screenscraping.html#/title-slide), [Lecture 3](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_03_applications.html#/title-slide).
+* Slides from the Summer Institute in Computational Social Science: Lecture 1 ([html](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_01_digital_trace_data.html); [pdf](https://zilinskyjan.github.io/slides/SICSS_Digital_trace_data.pdf)), [Lecture 2](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_02_screenscraping.html#/title-slide), [Lecture 3](https://rawcdn.githack.com/zilinskyjan/lectures/b3d8aecd8a13677015ee7bdee12d24fe0e3ef98d/SICSS/SICSS_03_applications.html#/title-slide).
 
 # Courses at TUM and information for students
 
