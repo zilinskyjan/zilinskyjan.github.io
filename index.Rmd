@@ -53,6 +53,9 @@ I study how citizens digest political information, economic news, and controvers
 
 ## Preprints and ongoing work
 
+- Do Users Ever Draw a Line? Offensiveness and Content Moderation Preferences on Social Media. With Franziska Pradel, Spyros Kosmidis and Yannis Theocharis. <br>
+[OSF Preprint](https://osf.io/y4xft/).
+
 - Donate To Help Us Fight Back: Mobilization Rhetoric in Political Fundraising. With Seo-young Silvia Kim and Brian Brew. <br> 
 [APSA Preprint](https://preprints.apsanet.org/engage/apsa/article-details/641869c2dab08ad68f69d6ba).
 
