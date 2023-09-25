@@ -111,3 +111,8 @@ The code and some materials for my Data visualization class are now [publicly av
 - Campaigns, Elections, and Social Media (Winter 2022, Spring 2023)
 - [Telling stories with R and Data Visualization](http://zilinskyjan.github.io/DataViz/) (Winter 2022, Spring 2023)
 
+## Reboot Social Media
+
+![](files/img/pfp.png)
+
+The [Platforms for the People](https://tumthinktank.de/project/platforms-for-the-people/) (part of the Reboot Social Media initiative) project explores where people draw the line between hateful content and content protected by freedom of speech principles. The findings inform us about the content moderation practices which users believe should be put in place to counter toxic/threatening speech.
